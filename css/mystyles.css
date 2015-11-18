@@ -1,0 +1,63 @@
+/* styles for Ed Keith's Resume */
+
+body {
+/*
+   background: red;
+*/
+
+   color: #000080;
+   background:Azure;
+}
+.pos .ph {
+
+  font-weight: bold;
+  font-size: 150%;
+  font-family: serif;
+}
+
+.panel-title a{
+    text-decoration:none;
+}
+
+.emptitle {
+    text-align: left;
+}
+
+
+#education div.panel-body > div.row:nth-child(even) {
+ background:Whitesmoke;
+}
+.employer {
+    text-align: center;
+}
+
+.empdates {
+    text-align: right;
+}
+.class{
+    text-align: left;
+}
+.institute {
+    text-align: right;
+    align-items: center; 
+    vertical-align: middle;
+}
+.courseunit{
+ margin:  0px 0px 0px 0px;
+ padding: 0px 0px 0px 15px;;
+}
+footer{
+  background:Beige;
+}
+.offscreen
+{
+position: absolute;
+clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
+clip: rect(1px, 1px, 1px, 1px);
+padding: 0;
+border: 0;
+height: 1px;
+width: 1px;
+overflow: hidden;
+}
+
