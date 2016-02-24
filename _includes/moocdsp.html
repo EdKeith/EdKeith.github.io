@@ -1,0 +1,30 @@
+<div id='{{ tag }}' class='panel panel-default'>
+    <div class='panel-heading'>
+	<h4 class='panel-title'>
+	    <a data-toggle='collapse' 
+	       data-parent='#ed-accordion' 
+	       href='#{{ tag }}moocs'>
+		{{ ptitle | escape }}
+	    </a>
+	</h4>
+    </div>
+
+    <div id='{{ tag }}moocs' class='panel-collapse collapse'>
+	<div class='panel-body'>
+	    {% for c in site.data.moocs %}{% if c.tag == tag %}
+		<div class='row'>
+		    <div class='col-sm-6 class'>
+			{{ c.course | escape }}
+			{% for s in c.subcourses %}
+			    <p class='courseunit'>{{ s | escape }}</p>
+			{% endfor %}
+		    </div>
+		    <div class='col-sm-6 institute'>
+			{{ c.institute | escape }}
+		    </div>
+		</div>
+	    {% endif %}{% endfor %}
+	</div>
+    </div>
+</div> <!-- {{ ptitle }} MOOCs tab -->
+

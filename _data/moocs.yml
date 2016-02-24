@@ -1,0 +1,569 @@
+- course: Teaching with Moodle
+  subcourses:
+    - Simple Teaching
+    - Advanced Teaching
+  institute: Moodle HQ
+  tag: demo
+
+- course: Health Informatics in the Cloud
+  institute: Coursera / Georgia Institute Of Technology
+  tag: med
+
+- course: Health Informatics on FHIR
+  institute: Coursera / Georgia Institute Of Technology
+  tag: med
+
+- course: Interprofessional Healthcare Informatics
+  institute: Coursera / University Of Minnesota
+  tag: med
+
+- course: Data Management for Clinical Research
+  institute: Coursera / Vanderbilt University
+  tag: med
+
+- course: "MedDigX: Medicine in the Digital Age"
+  institute: RiceX
+  tag: med
+
+- course: Fundamentals of Pharmacology
+  institute: Coursera /  University Of Pennsylvania
+  tag: med
+
+- course: "BIOIMG101x: Introduction to Biomedical Imaging"
+  institute: UQx
+  tag: med
+
+- course: Statistical Analysis of fMRI Data
+  institute: Coursera / Johns Hopkins University
+  tag: med
+
+- course: Principles of fMRI 1 & 2 
+  institute: Coursera / Johns Hopkins University
+  tag: med
+
+- course: "Virology I: How Viruses Work"
+  institute: Coursera / Columbia University
+  tag: med
+
+- course: How Viruses Cause Disease
+  institute: Coursera /  Columbia University
+  tag: med
+
+- course: Bacteria and Chronic Infections
+  institute: Coursera / University of Copenhagen
+  tag: med
+
+- course: "PHLX101-01: Introduction to Bioethics"
+  institute: GeorgetownX
+  tag: med
+
+- course: The Science of Safety in Healthcare
+  institute: Coursera / Johns Hopkins University
+  tag: med
+
+- course: "BIOC372.1x: Fundamentals of Immunology Part 1"
+  institute: RiceX
+  tag: med
+
+- course: "Circadian clocks: how rhythms structure life"
+  institute: Coursera / Ludwig-Maximilians-Universität München
+  tag: med
+
+- course: Nutrition and Physical Activity for Health
+  institute: Coursera / University Of Pittsburgh
+  tag: med
+
+- course: "Exercise Physiology: Understanding the Athlete Within"
+  institute: Coursera / University Of Melbourne
+  tag: med
+
+- course: "Going Out on a Limb: The Anatomy of the Upper Limb"
+  institute: Coursera / University Of Pennsylvania
+  tag: med
+
+- course: "CHEM181x: Food for Thought"
+  institute: McGillX
+  tag: med
+
+- course: "Vital Signs: Understanding What the Body Is Telling Us"
+  institute: Coursera / University Of Pennsylvania
+  tag: med
+
+- course: "Preventing Chronic Pain: A Human Systems Approach"
+  institute: Coursera / University Of Minnesota
+  tag: med
+
+- course: Introduction to Urology
+  institute: KIx
+  tag: med
+
+- course: Introduction to the Science of Cancer
+  institute: Coursera / The Ohio State University
+  tag: med
+
+- course: "Antimicrobial Stewardship: Optimization of Antibiotic Practices"
+  institute: Coursera / Stanford
+  tag: med
+
+- course: "Acute and Chronic Rhinosinusitis: A Comprehensive Review"
+  institute: Coursera / Icahn School of Medicine at Mount Sinai
+  tag: med
+
+- course: Genes and the Human Condition (From Behavior to Biotechnology)
+  institute: Coursera / University Of Maryland, College Park
+  tag: gene
+
+
+- course: Useful Genetics
+  institute: Coursera / University Of British Columbia
+  tag: gene
+
+- course: Epigenetic Control of Gene Expression
+  institute: Coursera / University Of Melbourne
+  tag: gene
+
+- course: Computational Molecular Evolution
+  institute: Coursera / Technical University Of Denmark
+  tag: gene
+
+- course: "DNA - From Structure to Therapy"
+  institute: Iversity / Jacobs University Bremen
+  tag: gene
+
+- course: "BIOC300.2x DNA: Biology's Genetic Code"
+  institute: RiceX
+  tag: gene
+
+- course: Introduction to Human Behavioral Genetics
+  institute: Coursera / University Of Minnesota
+  tag: gene
+
+- course: Introduction to Genomic Technologies
+  institute: Coursera / Johns Hopkins University
+  tag: gene
+
+- course: Genomic Data Science with Galaxy
+  institute: Coursera / Johns Hopkins University
+  tag: gene
+
+- course: 7.28 Molecular Biology
+  subcourses:
+    - .1x DNA Replication and Repair
+    - .2x Transcription and Transposition
+  institute: MITx
+  tag: gene
+
+- course: "BIOC300.1x: Proteins: Biology's Workforce"
+  institute: RiceX
+  tag: gene
+
+- course: "Bioinformatics: Introduction and Methods 生物信息学: 导论与方法"
+  institute: Coursera / Peking University
+  tag: gene
+
+- course: "Bioinformatics: Genomes and Algorithms"
+  institute: Inria / France Universite Numerique (FUN)
+  tag: gene
+
+- course: Bioinformatic Methods I
+  institute: Coursera / University Of Toronto
+  tag: gene
+
+- course: Programmed Cell Death
+  institute: Coursera / Ludwig-Maximilians-Universität München
+  tag: gene
+
+- course: Drugs and the Brain 
+  institute: Coursera / California Institute Of Technology
+  tag: neuro
+
+- course: "MCB80: Fundamentals of Neuroscience"
+  sucourses:
+    - "Part I: The Electrical Properties of the Neuron"
+    - "Part II: Neurons and Networks"
+  institute: HarvardX
+  tag: neuro
+
+- course: Introduction to Clinical Neurology 
+  institute: Coursera / University Of California, San Francisco
+  tag: neuro
+
+- course: Medical Neuroscience
+  institute: Coursera / Duke University Medical School
+  tag: neuro
+
+- course: "Understanding the Brain: The Neurobiology of Everyday Life"
+  institute: Coursera / University Of Chicago
+  tag: neuro
+
+- course: The Addicted Brain
+  institute: Coursera / Emory University
+  tag: neuro
+
+- course: "Introduction to Neuroeconomics: how the brain makes decisions"
+  institute: Coursera / The Higher School Of Economics
+  tag: neuro
+
+- course: The Bilingual Brain 
+  institute: Coursera / University of Houston
+  tag: neuro
+
+- course: Computational Neuroscience
+  institute: Coursera / University of Washington
+  tag: neuro
+
+- course: The Brain and Space 
+  institute: Coursera / Duke University
+  tag: neuro
+
+- course: Visual Perception and the Brain
+  institute: Coursera / Duke University
+  tag: neuro
+
+- course: "BrainX: Cellular mechanisms of brain function" 
+  institute: EPFLx
+  tag: neuro
+
+- course: Synapses, Neurons and Brains
+  institute: Coursera / Hebrew University
+  tag: neuro
+
+
+- course: "GG101x: The Science of Happiness"
+  institute: BerkeleyX
+  tag: neuro
+
+- course: "Sleep: Neurobiology, Medicine, and Society"
+  institute: Couresra / University of Michigan Medical School
+  tag: neuro
+
+- course: Introduction to Light, Color, and Life
+  institute: Coursera / Korea Advanced Institute Of Science And Technology
+  tag: neuro
+
+- course: Heterogeneous Parallel Programming
+  institute: Coursera / The University Of Illinois At Urbana-Champaign
+  tag: compsci
+
+- course: "Image and video processing: From Mars to Hollywood with a stop at the hospital"
+  institute: Coursera / Duke University
+  tag: compsci
+
+- course: Automata
+  institute: Coursera / Stanford
+  tag: compsci
+
+- course: Introduction to Logic
+  institute: Coursera / Stanford
+  tag: compsci
+
+- course: Compilers
+  institute: Coursera / Stanford
+  tag: compsci
+
+- course: Functional Programming Principles in Scala
+  institute: Coursera / The Ecole Polytechnique Federale De Lausanne
+  tag: compsci
+
+- course: Introduction to Systematic Program Design - Part 1
+  institute: Coursera / University Of British Columbia
+  tag: compsci
+
+- course: Digital Signal Processing
+  institute: Coursera / Ecole Polytechnique Fédérale De Lausanne
+  tag: compsci
+
+- course: Human-Computer Interaction
+  institute: Coursera / University Of California, San Diego
+  tag: compsci
+
+- course: Usable Security
+  institute: Coursera / University Of Maryland, College Park
+  tag: compsci
+
+- course: R Programming
+  institute: Coursera / Johns Hopkins University
+  tag: compsci
+
+- course:
+  institute: 
+  tag: compsci
+
+- course: Introduction to Programming with MATLAB
+  institute: Coursera / Vanderbilt University
+  tag: compsci
+
+- course: AV102 ESaaS – Managing Distributed Teams
+  institute: Agile Ventures / Hawaii Pacific University / UC Berkeley
+  tag: se
+
+- course: Introduction to Software Product Management
+  institute: Coursera / University of Alberta
+  tag: se
+
+- course: Fundamentals of Project Planning and Management
+  institute: Coursera / Darden School of Business University of Virginia
+  tag: se
+
+- course: "Risk and Opportunity: Managing Risk for Development"
+  institute: Coursera / The World Bank
+  tag: se
+
+- course: An Introduction to Operations Management
+  institute: Coursera / University Of Pennsylvania
+  tag: se
+
+- course: Organizational Analysis	
+  institute: Coursera / Stanford
+  tag: se
+
+- course: Creative, Serious and Playful Science of Android Apps
+  institute: Coursera / University Of Illinois At Urbana-Champaign
+  tag: wmc
+
+- course: Creative Programming for Digital Media &amp; Mobile Apps
+  institute: Coursera / University Of London
+  tag: wmc
+
+- course: Programming Cloud Services for Android Handheld Systems
+  institute: Coursera / Vanderbilt University
+  tag: wmc
+
+- course: Web Application Architectures
+  institute: Coursera / University Of New Mexico
+  tag: wmc
+
+- course: Learn HTML5 from W3C
+  institute: W3Cx
+  tag: wmc
+
+- course: Introduction to HTML5
+  institute: Coursera /  University of Michigan
+  tag: wmc
+
+- course: HTML5 
+  subcourses:
+    - "Part 1: HTML5 Coding Essentialsand Best Practices"
+    - "Part 2: Advanced Techniques for Designing HTML5"
+  institute: W3Cx
+  tag: wmc
+
+- course: "Responsive Website Basics: Code with HTML, CSS, and JavaScript"
+  institute: Coursera / University of London & Goldsmiths, University of London
+  tag: wmc
+
+- course: "DEV208x: Introduction to jQuery"
+  institute: Microsoft / EdX
+  tag: wmc
+
+- course: "DEV203x: Introduction to Bootstrap – a tutorial"
+  institute: Microsoft / EdX
+  tag: wmc
+
+- course: CloudIntro.x Introduction to Cloud Computing
+  institute: IEEEx
+  tag: wmc
+
+- course: "Pattern-Oriented Software Architectures: Programming Mobile Services for Android Handheld Systems"
+  institute: Coursera / Vanderbilt University
+  tag: wmc
+
+- course: Introduction to Databases
+  institute: Stanford University
+  tag: dat
+
+- course: "M101P: MongoDB for Developers"
+  institute: Mongodb University
+  tag: dat
+
+- course: "M101JS: MongoDB for Node.js Developers"
+  institute: Mongodb University
+  tag: dat
+
+- course: Data Mining with Weka
+  institute: University of Waikato
+  tag: dat
+
+- course: "ISE101X: Knowledge Management and Big Data in Business"
+  institute: HKPolyUx
+  tag: dat
+
+- course: CS100.1x Introduction to Big Data with Apache Spark
+  institute: BerkeleyX
+  tag: dat
+
+- course: Pattern Discovery in Data Mining
+  institute: Coursera / University of Illinois at Urbana-Champaign
+  tag: dat
+
+- course: "PH525: Data Analysis for Life Sciences"
+  subcourses:
+    - "1x: Statistics and R"
+    - "2x: Introduction to Linear Models and Matrix Algebra"
+  institute: HarvardX
+  tag: dat
+
+- course: "Process Mining: Data science in Action"
+  institute: Coursera / Eindhoven University Of Technology
+  tag: dat
+
+- course: Mining Massive Datasets
+  institute: Coursera / Stanford
+  tag: dat
+
+- course: "The Data Scientist’s Toolbox"
+  institute: Coursera / Johns Hopkins University
+  tag: dat
+
+- course: "MAS.S69x: Big Data and Social Physics"
+  institute: MITx
+  tag: dat
+
+- course: "Metadata: Organizing and Discovering Information"
+  institute: Coursera / University Of North Carolina At Chapel Hill
+  tag: dat
+
+- course: Reproducible Research
+  institute: Coursera / Johns Hopkins University
+  tag: dat
+
+- course: Statistics in Medicine
+  institute: Stanford Online
+  tag: dat
+
+- course: Case-Based Introduction to Biostatistics
+  institute: Coursera / Johns Hopkins University
+  tag: dat
+
+- course: Mathematical Biostatistics Boot Camp
+  institute: Coursera / Johns Hopkins University
+  tag: dat
+
+- course: Computing for Data Analysis
+  institute: Coursera / Johns Hopkins University
+  tag: dat
+
+- course: "DAT208x Introduction to Python for Data Science"
+  institute: Microsoft / EdX
+  tag: dat
+
+- course: Model thinking
+  institute: Coursera / University Of Michigan – Ann Arbor
+  tag: math
+
+- course: Modeling and Simulation using MATLAB
+  institute: Iversity / Jacobs University Bremen
+  tag: math
+
+- course: Introduction to Complexity
+  institute: Santa Fe Institute
+  tag: math
+
+- course: Introduction to Dynamical Systems and Chaos
+  institute: Santa Fe Institute
+  tag: math
+
+- course: "Games without Chance: Combinatorial Game Theory"
+  institute: Coursera / Georgia Institute Of Technology
+  tag: math
+
+- course: Game Theory I & II
+  institute: Coursera / Stanford University
+  tag: math
+
+- course: Probabilistic Graphical Models
+  institute: Coursera / Stanford
+  tag: math
+
+- course: Markets with Frictions
+  institute: Coursera / University Of Wisconsin-Madison
+  tag: math
+
+- course: Artificial Intelligence
+  institute: Stanford
+  tag: ai
+
+- course: "CS188.1x: Artificial Intelligence"
+  institute: BerkelyX
+  tag: ai
+
+- course: Machine Learning
+  institute: Coursera / Stanford
+  tag: ai
+
+- course: "CS190.1x: Scalable Machine Learning"
+  institute: BerkeleyX
+  tag: ai
+
+- course: "Computer Vision: The Fundamentals"
+  institute: Coursera / UC Berkely
+  tag: ai
+
+- course: Artificial Intelligence Planning
+  institute: Coursera / The University Of Edinburgh
+  tag: ai
+
+- course: Control of Mobile Robots
+  institute: Coursera / Georgia Institute Of Technology
+  tag: ai
+
+- course: Mobile Robotics
+  institute: Open2study / Swinburne University Of Technology
+  tag: ai
+
+- course: Robotic Vision
+  institute: QUT
+  tag: ai
+
+- course: "Copyright for Educators & Librarians"
+  institute: Coursera / Duke University
+  tag: msc
+
+- course: "Miracles of Human Language: An Introduction to Linguistics"
+  institute: Coursera / Universiteit Leiden
+  tag: msc
+
+- course: Cryptography I
+  institute: Coursera / Stanford
+  tag: msc
+
+- course: Astrobiology and the Search for Extraterrestrial Life
+  institute: Coursera / The University Of Edinburgh
+  tag: msc
+
+- course: "The Extremes of Life: Microbes and Their Diversity"
+  institute: KyotoUx
+  tag: msc
+
+- course: Introduction to Forensic Science
+  institute: Coursera / Nanyang Technological University
+  tag: msc
+
+- course: Disaster Preparedness
+  institute: Coursera / University Of Pittsburgh
+  tag: msc
+
+- course: "4.605x: A Global History of Architecture: Part 1"
+  institute: Mitx
+  tag: msc
+
+- course: Introduction to Communication Science
+  institute: Coursera / University Of Amsterdam
+  tag: msc
+
+- course: Experimentation for Improvement
+  institute: Coursera / McMaster University
+  tag: msc
+
+- course: Psychological First Aid
+  institute: Coursera / Johns Hopkins University
+  tag: msc
+
+- course: Unethical Decision Making in Organizations
+  institute: Coursera / University of Lausanne
+  tag: msc
+
+- course: Teaching with Moodle
+  institute: Moodle HQ
+  tag: msc
+
