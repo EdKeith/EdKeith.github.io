@@ -466,10 +466,27 @@
 - course: "Games without Chance: Combinatorial Game Theory"
   institute: Coursera / Georgia Institute Of Technology
   tag: math
+  instructors:
+   - Thomas Morley
+  year: 2013
 
-- course: Game Theory I & II
+- course: Game Theory
   institute: Coursera / Stanford University
   tag: math
+  instructors:
+   - Matthew O. Jackson
+   - Yoav Shoham
+   - Kevin Leyton-Brown
+  year: 2013
+
+- course: "Game Theory II: Advanced Applications"
+  institute: Coursera / Stanford University
+  tag: math
+  instructors:
+   - Matthew O. Jackson
+   - Yoav Shoham
+   - Kevin Leyton-Brown
+  year: 2016
 
 - course: Probabilistic Graphical Models
   institute: Coursera / Stanford
