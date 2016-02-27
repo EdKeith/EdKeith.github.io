@@ -1,5 +1,5 @@
 - course: Teaching with Moodle
-  subcoures:
+  units:
     - Simple Teaching
     - Advanced Teaching
   institute: Moodle HQ
@@ -147,7 +147,7 @@
   tag: gene
 
 - course: 7.28 Molecular Biology
-  subcourses:
+  units:
     - .1x DNA Replication and Repair
     - .2x Transcription and Transposition
   institute: MITx
@@ -178,7 +178,7 @@
   tag: neuro
 
 - course: "MCB80: Fundamentals of Neuroscience"
-  subcoures:
+  units:
     - "Part I: The Electrical Properties of the Neuron"
     - "Part II: Neurons and Networks"
   institute: HarvardX
@@ -342,7 +342,7 @@
   tag: wmc
 
 - course: HTML5 
-  subcourses:
+  units:
     - "Part 1: HTML5 Coding Essentialsand Best Practices"
     - "Part 2: Advanced Techniques for Designing HTML5"
   institute: W3Cx
@@ -397,7 +397,7 @@
   tag: dat
 
 - course: "PH525: Data Analysis for Life Sciences"
-  subcourses:
+  units:
     - "1x: Statistics and R"
     - "2x: Introduction to Linear Models and Matrix Algebra"
   institute: HarvardX

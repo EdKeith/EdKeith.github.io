@@ -15,7 +15,7 @@
 		<div class='row'>
 		    <div class='col-sm-6 class'>
 			{{ c.course | escape }}
-			{% for s in c.subcourses %}
+			{% for s in c.units %}
 			    <p class='courseunit'>{{ s | escape }}</p>
 			{% endfor %}
 		    </div>
