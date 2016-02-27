@@ -1,5 +1,5 @@
 - course: Teaching with Moodle
-  subcourses:
+  subcoures:
     - Simple Teaching
     - Advanced Teaching
   institute: Moodle HQ
@@ -178,7 +178,7 @@
   tag: neuro
 
 - course: "MCB80: Fundamentals of Neuroscience"
-  sucourses:
+  subcoures:
     - "Part I: The Electrical Properties of the Neuron"
     - "Part II: Neurons and Networks"
   institute: HarvardX
