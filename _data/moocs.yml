@@ -1,59 +1,101 @@
-- course: Teaching with Moodle
-  units:
-    - Simple Teaching
-    - Advanced Teaching
-  institute: Moodle HQ
-  tag: demo
+# my moocs
 
 - course: Health Informatics in the Cloud
   institute: Coursera / Georgia Institute Of Technology
+  year: 2013
+  instructors:
+    - Mark Braunstein
   tag: med
 
 - course: Health Informatics on FHIR
+  url: https://www.coursera.org/learn/fhir
+  year: 2015
+  instructors:
+    - Mark L. Braunstein, MD
   institute: Coursera / Georgia Institute Of Technology
   tag: med
 
 - course: Interprofessional Healthcare Informatics
+  url: https://www.coursera.org/learn/health-informatics-professional
+  year: 2013
+  instructors:
+    - Karen Monsen, Ph.D., RN, FAAN
   institute: Coursera / University Of Minnesota
   tag: med
 
 - course: Data Management for Clinical Research
+  url: https://www.coursera.org/course/datamanagement
+  instructors:
+    - Stephany N. Duda, PhD
+    - Paul A. Harris, PhD
+    - Firas H. Wehbe, MD, PhD
+  year: 2013
   institute: Coursera / Vanderbilt University
   tag: med
 
 - course: "MedDigX: Medicine in the Digital Age"
+  url: https://www.edx.org/course/medicine-digital-age-ricex-meddigx-0
   institute: RiceX
   tag: med
 
 - course: Fundamentals of Pharmacology
+  url: https://www.coursera.org/course/pharm101
+  instructors:
+    - Dr. Emma Anne Meagher 
+  year: 2012
   institute: Coursera /  University Of Pennsylvania
   tag: med
 
 - course: "BIOIMG101x: Introduction to Biomedical Imaging"
+  url: https://www.edx.org/course/introduction-biomedical-imaging-uqx-bioimg101x-1
+  instructors:
+    - Professor Graham Galloway
+  year: 2014
   institute: UQx
   tag: med
 
 - course: Statistical Analysis of fMRI Data
+  year: 2014
+  instructors:
+    - Martin Lindquist, PhD, MSc
   institute: Coursera / Johns Hopkins University
   tag: med
 
-- course: Principles of fMRI 1 & 2 
+- course: Principles of fMRI 1
+  url: https://www.coursera.org/learn/functional-mri
+  instructors:
+    - Martin Lindquist, PhD, MSc
+    - Tor Wager
+  year: 2015
+  institute: Coursera / Johns Hopkins University
+  tag: med
+
+- course: Principles of fMRI 2
+  url: https://www.coursera.org/course/fmri2
+  instructors:
+    - Martin Lindquist, PhD, MSc
+    - Tor Wager
+  year: 2015
   institute: Coursera / Johns Hopkins University
   tag: med
 
 - course: "Virology I: How Viruses Work"
+  url: https://www.coursera.org/course/virology
   institute: Coursera / Columbia University
   tag: med
 
 - course: How Viruses Cause Disease
+  url: https://www.coursera.org/course/virology2
   institute: Coursera /  Columbia University
   tag: med
 
 - course: Bacteria and Chronic Infections
+  url: https://www.coursera.org/learn/bacterial-infections
   institute: Coursera / University of Copenhagen
   tag: med
 
 - course: "PHLX101-01: Introduction to Bioethics"
+  url: https://www.edx.org/course/introduction-bioethics-georgetownx-phlx101-02x
   institute: GeorgetownX
   tag: med
 
@@ -102,6 +144,11 @@
   tag: med
 
 - course: "Antimicrobial Stewardship: Optimization of Antibiotic Practices"
+  url: https://www.coursera.org/course/antimicrobial 
+  year: 2013
+  instructors:
+    - Dr. Stan Deresinski, MD FIDSA
+    - Elizabeth Robilotti, MD MPH
   institute: Coursera / Stanford
   tag: med
 
@@ -113,8 +160,13 @@
   institute: Coursera / University Of Maryland, College Park
   tag: gene
 
-
 - course: Useful Genetics
+  note: This course is no longer online but the instructor wrote the following
+        [letter](https://www.dropbox.com/s/ofh9wrtw8tgfapy/usefulgenetics-readings-About_Useful_Genetics_May-July2013.pdf?dl=0) 
+        describing the course.
+  Instructors: 
+    - Professor Rosemary J. Redfield, PhD
+  year: 2013
   institute: Coursera / University Of British Columbia
   tag: gene
 
@@ -127,6 +179,7 @@
   tag: gene
 
 - course: "DNA - From Structure to Therapy"
+  url: https://iversity.org/en/courses/dna-from-structure-to-therapy
   institute: Iversity / Jacobs University Bremen
   tag: gene
 
@@ -148,8 +201,14 @@
 
 - course: 7.28 Molecular Biology
   units:
-    - .1x DNA Replication and Repair
-    - .2x Transcription and Transposition
+    - name: .1x DNA Replication and Repair
+      url: https://www.edx.org/course/molecular-biology-part-1-dna-replication-mitx-7-28-1x1
+      year: 2015
+    - name: .2x Transcription and Transposition
+      url: https://www.edx.org/course/molecular-biology-part-2-transcription-mitx-7-28-2x
+      year: 2015
+  instructors:
+    - Stephen P. Bell
   institute: MITx
   tag: gene
 
@@ -162,6 +221,7 @@
   tag: gene
 
 - course: "Bioinformatics: Genomes and Algorithms"
+  url: https://www.fun-mooc.fr/courses/inria/41007/session01/about
   institute: Inria / France Universite Numerique (FUN)
   tag: gene
 
@@ -179,8 +239,18 @@
 
 - course: "MCB80: Fundamentals of Neuroscience"
   units:
-    - "Part I: The Electrical Properties of the Neuron"
-    - "Part II: Neurons and Networks"
+    - name: "Part 1: The Electrical Properties of the Neuron"
+      url: https://www.edx.org/course/fundamentals-neuroscience-part-1-harvardx-mcb80-1x 
+      year: 2014
+    - name: "Part 2: Neurons and Networks"
+      url: https://www.edx.org/course/fundamentals-neuroscience-part-2-neurons-harvardx-mcb80-2x
+      year: 2015
+# commented out pending release of grade
+#    - name: "Part 3: The Brain"
+#      url: https://www.edx.org/course/fundamentals-neuroscience-part-3-brain-harvardx-mcb80-3x
+#      year: 2016
+  instructors:
+    - David Cox
   institute: HarvardX
   tag: neuro
 
@@ -343,8 +413,14 @@
 
 - course: HTML5 
   units:
-    - "Part 1: HTML5 Coding Essentialsand Best Practices"
-    - "Part 2: Advanced Techniques for Designing HTML5"
+    - name: "Part 1: HTML5 Coding Essentialsand Best Practices"
+      url: https://www.edx.org/course/html5-part-1-html5-coding-essentials-w3cx-html5-1x-0
+      year: 2015
+    - name: "Part 2: Advanced Techniques for Designing HTML5"
+      url: https://www.edx.org/course/html5-part-2-advanced-techniques-w3cx-html5-2x-0
+      year: 2016
+  instructors:
+    - Michel Buffa
   institute: W3Cx
   tag: wmc
 
@@ -398,8 +474,15 @@
 
 - course: "PH525: Data Analysis for Life Sciences"
   units:
-    - "1x: Statistics and R"
-    - "2x: Introduction to Linear Models and Matrix Algebra"
+    - name: "1x: Statistics and R"
+      url: https://www.edx.org/course/data-analysis-life-sciences-1-statistics-harvardx-ph525-1x
+      year: 2015
+    - name: "2x: Introduction to Linear Models and Matrix Algebra"
+      url: https://www.edx.org/course/data-analysis-life-sciences-2-harvardx-ph525-2x
+      year: 2015
+  instructors:
+    - Rafael A. Irizarry
+    - Michael Love
   institute: HarvardX
   tag: dat
 
@@ -481,6 +564,7 @@
 
 - course: "Game Theory II: Advanced Applications"
   institute: Coursera / Stanford University
+  url: https://www.coursera.org/course/gametheory2
   tag: math
   instructors:
    - Matthew O. Jackson
@@ -581,6 +665,11 @@
   tag: msc
 
 - course: Teaching with Moodle
+  url: https://learn.moodle.net/course/view.php?id=8288
+  instructors:
+    - Mary Cooch
+    - Helen Foster
+  year; 2016
   institute: Moodle HQ
   tag: msc
 
