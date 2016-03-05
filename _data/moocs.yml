@@ -13,6 +13,7 @@
   instructors:
     - Mark L. Braunstein, MD
   institute: Coursera / Georgia Institute Of Technology
+  grade: 87.5%
   tag: med
 
 - course: Interprofessional Healthcare Informatics
@@ -145,7 +146,7 @@
 
 - course: "Antimicrobial Stewardship: Optimization of Antibiotic Practices"
   url: https://www.coursera.org/course/antimicrobial 
-  year: 2013
+  year: 2016
   instructors:
     - Dr. Stan Deresinski, MD FIDSA
     - Elizabeth Robilotti, MD MPH
@@ -311,6 +312,14 @@
   institute: Coursera / Korea Advanced Institute Of Science And Technology
   tag: neuro
 
+- course: Autism Spectrum Disorder
+  institute: Coursera / University of California, Davis
+  instructors:
+   - Patricia Schetter
+  year: 2016
+  grade: 96.0%
+  tag: neuro
+
 - course: Heterogeneous Parallel Programming
   institute: Coursera / The University Of Illinois At Urbana-Champaign
   tag: compsci
@@ -355,9 +364,9 @@
   institute: Coursera / Johns Hopkins University
   tag: compsci
 
-- course:
-  institute: 
-  tag: compsci
+# - course:
+#  institute: 
+#  tag: compsci
 
 - course: Introduction to Programming with MATLAB
   institute: Coursera / Vanderbilt University
@@ -426,6 +435,12 @@
 
 - course: "Responsive Website Basics: Code with HTML, CSS, and JavaScript"
   institute: Coursera / University of London & Goldsmiths, University of London
+  instructors:
+    - Dr Matthew Yee-King
+    - Dr Marco Gillies
+    - Dr Kate Devlin
+  year:
+  grade: 96.1%
   tag: wmc
 
 - course: "DEV208x: Introduction to jQuery"
@@ -439,6 +454,14 @@
 - course: CloudIntro.x Introduction to Cloud Computing
   institute: IEEEx
   tag: wmc
+
+- course: "INF201.13x: Introduction to Cloud Computing"
+  institute: Microsoft / EdX
+  instructors:
+   - Björn Rettig
+  year: 2015
+  tag: wmc
+
 
 - course: "Pattern-Oriented Software Architectures: Programming Mobile Services for Android Handheld Systems"
   institute: Coursera / Vanderbilt University
@@ -527,12 +550,32 @@
   tag: dat
 
 - course: "DAT208x Introduction to Python for Data Science"
+  url: https://www.edx.org/course/introduction-python-data-science-microsoft-dat208x#!
+  year: 2016
+  instructors:
+   - Filip Schouwenaars
   institute: Microsoft / EdX
   tag: dat
 
 - course: Model thinking
   institute: Coursera / University Of Michigan – Ann Arbor
   tag: math
+
+- course: Introduction to Mathematical Thinking
+  institute: Coursera / Stanford
+  instructors:
+   - Keith Devlin, Ph.D., D.Sc.
+  year: 2012
+  tag: math
+
+- course: Introduction to Mathematical Philosophy
+  institute: Coursera / LUDWIG-MAXIMILIANS-UNIVERSITÄT MÜNCHEN (LMU)
+  instructors:
+   - Prof. Dr. Hannes Leitgeb
+   - Prof. Dr. Stephan Hartmann
+  year: 2014
+  tag: math
+
 
 - course: Modeling and Simulation using MATLAB
   institute: Iversity / Jacobs University Bremen
@@ -640,6 +683,36 @@
   institute: Coursera / Nanyang Technological University
   tag: msc
 
+- course: Introduction to Digital Sound Design
+  institute: Coursera / Emory University
+  instructors:
+   - Professor Steve Everett, DMA
+  year: 2013
+  tag: msc
+
+- course: "BMPR365x: Vocal Recording Technology"
+  institute: BerkleeX
+  instructors:
+   - Prince Charles Alexander
+  year: 2014
+  tag: msc
+
+- course: Introduction to Music Production
+  institute: Coursera / Berklee College of Music
+  instructors:
+   - Professor Loudon Stearns
+  year: 2014
+  tag: msc
+
+
+
+- course: Galaxies and Cosmology
+  institute: Coursera / California Institute Of Technology (CALTECH)
+  instructors:
+   - Professor S. G. Djorgovski
+  year: 2013
+  tag: msc
+
 - course: Disaster Preparedness
   institute: Coursera / University Of Pittsburgh
   tag: msc
@@ -664,12 +737,38 @@
   institute: Coursera / University of Lausanne
   tag: msc
 
+- course: "Risk and Opportunity: Managing Risk for Development" 
+  institute: Coursera / The World Bank
+  instructors:
+   - Anca Maria Podpiera
+   - Federica Ranghieri
+   - Kyla Wethli
+   - Norman Loayza
+  year: 2014
+  tag: msc
+
+
+- course: "Fantasy and Science Fiction: The Human Mind, Our Modern World"
+  institute: Coursera / University Of Michigan
+  instructors:
+    - Eric S. Rabkin, Ph.D.
+  year: 2012
+  tag: msc
+
 - course: Teaching with Moodle
   url: https://learn.moodle.net/course/view.php?id=8288
   instructors:
     - Mary Cooch
     - Helen Foster
-  year; 2016
+  year: 2016
   institute: Moodle HQ
   tag: msc
 
+- course: Enhance Your Career and Employability Skills
+  instirtute: Coursera / The University of London
+  year: 2014
+  instructors: 
+   - David Winter
+   - Laura Brammar
+  tag: none
+ 
