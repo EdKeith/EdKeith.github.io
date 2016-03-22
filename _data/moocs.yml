@@ -246,10 +246,9 @@
     - name: "Part 2: Neurons and Networks"
       url: https://www.edx.org/course/fundamentals-neuroscience-part-2-neurons-harvardx-mcb80-2x
       year: 2015
-# commented out pending release of grade
-#    - name: "Part 3: The Brain"
-#      url: https://www.edx.org/course/fundamentals-neuroscience-part-3-brain-harvardx-mcb80-3x
-#      year: 2016
+    - name: "Part 3: The Brain"
+      url: https://www.edx.org/course/fundamentals-neuroscience-part-3-brain-harvardx-mcb80-3x
+      year: 2016
   instructors:
     - David Cox
   institute: HarvardX
