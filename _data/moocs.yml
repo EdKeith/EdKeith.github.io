@@ -3,6 +3,9 @@
 - course: Health Informatics in the Cloud
   institute: Coursera / Georgia Institute Of Technology
   year: 2013
+  note:  "courses seems to have taken down the page for health informatics in the cloud,
+          but it looks like the lectures are now at
+https://www.udacity.com/courses/ud809." 
   instructors:
     - Mark Braunstein
   tag: med
@@ -37,6 +40,10 @@
 - course: "MedDigX: Medicine in the Digital Age"
   url: https://www.edx.org/course/medicine-digital-age-ricex-meddigx-0
   institute: RiceX
+  instructors:
+   - Kirsten Ostherr, PhD, MPH
+   - Bryan Vartabedian, MD, FAAP
+  year: 2015
   tag: med
 
 - course: Fundamentals of Pharmacology
@@ -49,6 +56,7 @@
 
 - course: "BIOIMG101x: Introduction to Biomedical Imaging"
   url: https://www.edx.org/course/introduction-biomedical-imaging-uqx-bioimg101x-1
+
   instructors:
     - Professor Graham Galloway
   year: 2014
@@ -83,33 +91,63 @@
 - course: "Virology I: How Viruses Work"
   url: https://www.coursera.org/course/virology
   institute: Coursera / Columbia University
+  instructors: 
+   - Vincent Racaniello, Ph.D.
+  year: 2013 
   tag: med
 
 - course: How Viruses Cause Disease
   url: https://www.coursera.org/course/virology2
   institute: Coursera /  Columbia University
+  instructors: 
+   - Vincent Racaniello, Ph.D.
+  year: 2014 
   tag: med
 
 - course: Bacteria and Chronic Infections
   url: https://www.coursera.org/learn/bacterial-infections
   institute: Coursera / University of Copenhagen
+  instructors:
+   - Professor Thomas Bjarnsholt
+  year: 2015
   tag: med
 
 - course: "PHLX101-01: Introduction to Bioethics"
   url: https://www.edx.org/course/introduction-bioethics-georgetownx-phlx101-02x
   institute: GeorgetownX
+  instructors: 
+   - Margaret Olivia Little
+  year: 2014
   tag: med
 
 - course: The Science of Safety in Healthcare
   institute: Coursera / Johns Hopkins University
+  instructors: 
+   - Cheryl Dennison Himmelfarb, RN, ANP, PhD, FAAN
+   - Peter J. Pronovost, MD, PhD, FCCM
+   - Albert W. Wu, M.D., M.P.H.
+  year: 2014
   tag: med
 
-- course: "BIOC372.1x: Fundamentals of Immunology Part 1"
+- course: "BIOC372: Fundamentals of Immunology"
+  units:
+    - name: ".1x: Part 1"
+      url: https://www.edx.org/course/fundamentals-immunology-part-1-ricex-bioc372-1x-1
+      year: 2014
+    - name: ".2x: Part 2"
+      url: https://www.edx.org/course/fundamentals-immunology-part-2-ricex-bioc372-2x-0 
+      year: 2016
   institute: RiceX
+  instructors:
+   - Dr. Alma Moon Novotny
   tag: med
 
 - course: "Circadian clocks: how rhythms structure life"
   institute: Coursera / Ludwig-Maximilians-Universität München
+  instructors:
+   - Prof. Martha Merrow, PhD
+   - Prof. Dr. Till Roenneberg
+  year: 2015
   tag: med
 
 - course: Nutrition and Physical Activity for Health
@@ -239,17 +277,20 @@
   tag: neuro
 
 - course: "MCB80: Fundamentals of Neuroscience"
+  url: https://www.mcb80x.org/
   units:
     - name: "Part 1: The Electrical Properties of the Neuron"
       url: https://www.edx.org/course/fundamentals-neuroscience-part-1-harvardx-mcb80-1x 
       year: 2014
+      grade: 82,2%
     - name: "Part 2: Neurons and Networks"
       url: https://www.edx.org/course/fundamentals-neuroscience-part-2-neurons-harvardx-mcb80-2x
       year: 2015
-# commented out pending release of grade
-#    - name: "Part 3: The Brain"
-#      url: https://www.edx.org/course/fundamentals-neuroscience-part-3-brain-harvardx-mcb80-3x
-#      year: 2016
+      grade: 84.0%
+    - name: "Part 3: The Brain"
+      url: https://www.edx.org/course/fundamentals-neuroscience-part-3-brain-harvardx-mcb80-3x
+      year: 2016
+      grade: 96.9%
   instructors:
     - David Cox
   institute: HarvardX
@@ -320,6 +361,13 @@
   grade: 96.0%
   tag: neuro
 
+- course: "Music as Biology: What We Like to Hear and Why"
+  institute: Coursera / Duke University
+  instructors:
+   - Dr. Dale Purves, M.D.
+  year: 2016
+  tag: neuro
+
 - course: Heterogeneous Parallel Programming
   institute: Coursera / The University Of Illinois At Urbana-Champaign
   tag: compsci
@@ -329,19 +377,34 @@
   tag: compsci
 
 - course: Automata
+  url: https://www.coursera.org/course/automata
   institute: Coursera / Stanford
+  instructor:
+   - Jeffrey Ullman
+  year: 2012
   tag: compsci
 
 - course: Introduction to Logic
+  url: https://www.coursera.org/course/intrologic
   institute: Coursera / Stanford
+  instructors:
+   - Michael Genesereth
+  year: 2012
   tag: compsci
 
 - course: Compilers
+  url: https://www.coursera.org/course/compilers
   institute: Coursera / Stanford
+  instructors:
+   - Alex Aiken
+  year: 2012
   tag: compsci
 
 - course: Functional Programming Principles in Scala
   institute: Coursera / The Ecole Polytechnique Federale De Lausanne
+  instructors:
+   - Martin Odersky
+  year: 2012
   tag: compsci
 
 - course: Introduction to Systematic Program Design - Part 1
@@ -363,10 +426,6 @@
 - course: R Programming
   institute: Coursera / Johns Hopkins University
   tag: compsci
-
-# - course:
-#  institute: 
-#  tag: compsci
 
 - course: Introduction to Programming with MATLAB
   institute: Coursera / Vanderbilt University
@@ -390,10 +449,16 @@
 
 - course: An Introduction to Operations Management
   institute: Coursera / University Of Pennsylvania
+  instructors:
+   - Christian Terwiesch
+  year: 2012
   tag: se
 
 - course: Organizational Analysis	
   institute: Coursera / Stanford
+  instructors:
+   - Professor Daniel A. McFarland, PhD
+  year: 2012
   tag: se
 
 - course: Creative, Serious and Playful Science of Android Apps
@@ -435,12 +500,22 @@
 
 - course: "Responsive Website Basics: Code with HTML, CSS, and JavaScript"
   institute: Coursera / University of London & Goldsmiths, University of London
+  url: https://www.coursera.org/learn/website-coding
   instructors:
     - Dr Matthew Yee-King
     - Dr Marco Gillies
     - Dr Kate Devlin
-  year:
+  year: 2016
   grade: 96.1%
+  tag: wmc
+
+- course: "Introduction to Meteor.js Development"
+  institute: Coursera / University of London & Goldsmiths, University of London
+  url: https://www.coursera.org/learn/meteor-development/
+  instructors:
+    - Dr Matthew Yee-King
+  year: 2016
+  grade: 83.7%
   tag: wmc
 
 - course: "DEV208x: Introduction to jQuery"
@@ -461,7 +536,6 @@
    - Björn Rettig
   year: 2015
   tag: wmc
-
 
 - course: "Pattern-Oriented Software Architectures: Programming Mobile Services for Android Handheld Systems"
   institute: Coursera / Vanderbilt University
@@ -543,10 +617,16 @@
 
 - course: Mathematical Biostatistics Boot Camp
   institute: Coursera / Johns Hopkins University
+  instructors:
+   - Brian Caffo, PhD, MS
+  year: 2012
   tag: dat
 
 - course: Computing for Data Analysis
   institute: Coursera / Johns Hopkins University
+  instructors:
+   - Roger D. Peng, PhD
+  year: 2012
   tag: dat
 
 - course: "DAT208x Introduction to Python for Data Science"
@@ -558,10 +638,15 @@
   tag: dat
 
 - course: Model thinking
+  url: https://www.coursera.org/learn/model-thinking
   institute: Coursera / University Of Michigan – Ann Arbor
+  instructors:
+   - Scott E. Page
+  year: 2012
   tag: math
 
 - course: Introduction to Mathematical Thinking
+  url: https://www.coursera.org/course/maththink
   institute: Coursera / Stanford
   instructors:
    - Keith Devlin, Ph.D., D.Sc.
@@ -575,7 +660,6 @@
    - Prof. Dr. Stephan Hartmann
   year: 2014
   tag: math
-
 
 - course: Modeling and Simulation using MATLAB
   institute: Iversity / Jacobs University Bremen
@@ -617,6 +701,9 @@
 
 - course: Probabilistic Graphical Models
   institute: Coursera / Stanford
+  instructors:
+   - Daphne Koller
+  year: 2012
   tag: math
 
 - course: Markets with Frictions
@@ -625,14 +712,28 @@
 
 - course: Artificial Intelligence
   institute: Stanford
+  instructors:
+   - Sebastian Thrun, Ph.D.
+   - Peter Norvig, Ph.D.
+  year: 2011
+  note: "This is the one that started it all. The original AI class is no more, 
+         the lectures are now available at https://www.udacity.com/courses/cs271." 
   tag: ai
 
 - course: "CS188.1x: Artificial Intelligence"
   institute: BerkelyX
+  instructors:
+   - Pieter Abbeel
+   - Dan Klein
+  year: 2012
   tag: ai
 
 - course: Machine Learning
+  url: https://www.coursera.org/learn/machine-learning
   institute: Coursera / Stanford
+  instructors:
+   - Andrew Ng
+  year: 2012
   tag: ai
 
 - course: "CS190.1x: Scalable Machine Learning"
@@ -641,6 +742,9 @@
 
 - course: "Computer Vision: The Fundamentals"
   institute: Coursera / UC Berkely
+  instructors:
+   - Jitendra Malik
+  year: 2012
   tag: ai
 
 - course: Artificial Intelligence Planning
@@ -657,10 +761,30 @@
 
 - course: Robotic Vision
   institute: QUT
+  url: https://www.qut.edu.au/study/short-courses-and-professional-development/short-courses/robotic-vision
+  tag: ai
+
+- course: Cognitive Neuroscience Robotics – Part A
+  institute:  OsakaUx
+  url: https://www.edx.org/course/cognitive-neuroscience-robotics-part-osakaux-cnr101x
+  year: 2016
+  instructors:
+   - Minoru Asada
+   - Hiroshi Ishiguro
+   - Koh Hosoda
+   - Yukie Nagai
   tag: ai
 
 - course: "Copyright for Educators & Librarians"
   institute: Coursera / Duke University
+  tag: msc
+
+- course: "IPLAW1x Intellectual Property Law and Policy: Part 1"
+  url: https://www.edx.org/course/intellectual-property-law-policy-part-1-pennx-iplaw1x
+  institute: PennX
+  year: 2016
+  instructors:
+   - R. Polk Wagner
   tag: msc
 
 - course: "Miracles of Human Language: An Introduction to Linguistics"
@@ -669,6 +793,9 @@
 
 - course: Cryptography I
   institute: Coursera / Stanford
+  instructors:
+   - Dan Boneh
+  year: 2013
   tag: msc
 
 - course: Astrobiology and the Search for Extraterrestrial Life
@@ -703,8 +830,6 @@
    - Professor Loudon Stearns
   year: 2014
   tag: msc
-
-
 
 - course: Galaxies and Cosmology
   institute: Coursera / California Institute Of Technology (CALTECH)
@@ -747,23 +872,30 @@
   year: 2014
   tag: msc
 
-
 - course: "Fantasy and Science Fiction: The Human Mind, Our Modern World"
+  url: https://www.coursera.org/course/fantasysf
   institute: Coursera / University Of Michigan
   instructors:
-    - Eric S. Rabkin, Ph.D.
+   - Eric S. Rabkin, Ph.D.
   year: 2012
   tag: msc
 
 - course: Teaching with Moodle
   url: https://learn.moodle.net/course/view.php?id=8288
   instructors:
-    - Mary Cooch
-    - Helen Foster
+   - Mary Cooch
+   - Helen Foster
   year: 2016
   institute: Moodle HQ
   tag: msc
 
+- course: "BIRDS101.1x: Pet Birds 101: Introduction to Avian Care and Medicine for the Pet Bird Enthusiast"
+  instirtute: UTennesseeX 
+  year: 2016
+  instructors: 
+   - Marcy Souza
+  tag: med
+ 
 - course: Enhance Your Career and Employability Skills
   instirtute: Coursera / The University of London
   year: 2014
