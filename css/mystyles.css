@@ -1,3 +1,5 @@
+---
+---
 /* styles for Ed Keith's Resume */
 
 /*
@@ -32,9 +34,9 @@
 
 
 body {
-/*
+
    background: red;
-*/
+
 
    color: #000080;
    background:Azure;
@@ -75,10 +77,14 @@ body {
     align-items: center; 
     vertical-align: middle;
 }
+
 .courseunit{
- margin:  0px 0px 0px 0px;
- padding: 0px 0px 0px 15px;;
+ /* background:red; */
+ margin:  0px 0px 0px 15px;
+ padding: 0px 0px 0px 15px;
+ /* color:green; */
 }
+
 footer{
   background:Beige;
 }
@@ -98,5 +104,67 @@ h3.panel-heading {
   margin:0;
 }
 
+blockquote p{
+  color: black;
+  font-style: italic;
+  quotes: "“" "”";
+  
+}
+blockquote p:before{
+    content: open-quote;
+}
 
 
+blockquote p:after{
+    content: close-quote;
+}
+blockquote footer{
+   background:Azure;
+}
+
+.tagline {
+ magin-top: 1em;
+ padding-top: 1em;
+}
+
+.name{
+  margin-top:1px;
+  padding-top:1px;
+}
+/*
+.vbottom {
+ position:relative; 
+}
+.vtop {
+ position:relative;
+}
+
+
+.vbottom p {
+  display: table-cell;
+  vertical-align: text-bottom;
+  position:absolute; 
+  top:90%; 
+  height:10em; 
+  margin-top:-15px;
+  color: red;
+}
+
+.vtop h1{
+  display: table-cell;
+  vertical-align: text-top;
+  position:absolute; 
+  top:0%; 
+  height:0em; 
+  margin-top:-50px;
+  color: green;
+}
+.vcenter{
+  display: table-cell;
+  vertical-align: middle;
+  position:absolute; 
+  top:50%; 
+  height:10em; 
+  margin-top:-5em;
+}
+*/

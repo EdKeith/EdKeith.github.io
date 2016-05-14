@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<!--script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-            }
-          });
-
-        MathJax.Hub.Queue(function() {
-            var all = MathJax.Hub.getAllJax(), i;
-            for(i=0; i < all.length; i += 1) {
-                all[i].SourceElement().parentNode.className += ' has-jax';
-            }
-        });
-
+<script type="text/javascript" 
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full">
 </script>
+
+<!--
+You can load MathJax from the MathJax CDN server but still use a configuration from your own local server. For example, suppose you have a configuration file called local.js on your own server, in a directory called MathJax/config/local. Then you can load MathJax from the CDN and still use your configuration file as follows:
 
 <script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML,http://myserver.com/MathJax/config/local/local.js">
 </script>
 
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"></script -->
+Because the local.js file is not on the CDN server, you must give the complete URL to the local configuration file. Note that you also have to edit the loadComplete() call that is at the bottom of the configuration file to change it from [MathJax]/config/local/local.js to the complete URL as you give it in the config parameter. In the example above, it would be
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
-  });
-</script>
-<script type="text/javascript" src="../MathJax.js?config=TeX-AMS_HTML-full"></script>
+MathJax.Ajax.loadComplete("http://myserver.com/MathJax/config/local/local.js");
+
+That is because the [MathJax] in the original URL refers to the root directory where MathJax.js was loaded, which is on the CDN, not your local server, and so you need to tell MathJax the actual location of your configuration file.
+-->
 
 
 			<title>{{ page.title }}</title>
@@ -42,10 +32,11 @@
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
+	        		<li><a href="/edkres.html">Resume</a></li>
+	        		<li><a href="/blog.html">Blog</a></li>
 	    		</ul>
 			</nav>
+
 			<div class="container">
 			
 			{{ content }}

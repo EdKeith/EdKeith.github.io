@@ -8,14 +8,10 @@
 	    </a>
 	</h4>
     </div>
-{% comment %}
-
-<a href="" target="_blank"> </a>
-
-{% endcomment %}
     <div id='{{ tag }}moocs' class='panel-collapse collapse'>
 	<div class='panel-body'>
-	    {% for c in site.data.moocs %}{% if c.tag == tag %}
+	    {% assign moocs = site.data.moocs | where: "tag", tag %}
+	    {% for c in moocs %} 
 		<div class='row'>
 		    <div class='col-sm-6 text-sm-left text-xs-center class'>
                         {% if c.url %}
@@ -35,7 +31,7 @@
 			{{ c.institute | escape }}
 		    </div>
 		</div>
-	    {% endif %}{% endfor %}
+	    {% endfor %}
 	</div>
     </div>
 </div> <!-- {{ ptitle }} MOOCs tab -->

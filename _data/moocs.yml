@@ -3,9 +3,9 @@
 - course: Health Informatics in the Cloud
   institute: Coursera / Georgia Institute Of Technology
   year: 2013
-  note:  "courses seems to have taken down the page for health informatics in the cloud,
-          but it looks like the lectures are now at
-https://www.udacity.com/courses/ud809." 
+  note: >
+    "courses seems to have taken down the page for health informatics in the cloud,
+     but it looks like the lectures are now at https://www.udacity.com/courses/ud809." 
   instructors:
     - Mark Braunstein
   tag: med
@@ -56,7 +56,6 @@ https://www.udacity.com/courses/ud809."
 
 - course: "BIOIMG101x: Introduction to Biomedical Imaging"
   url: https://www.edx.org/course/introduction-biomedical-imaging-uqx-bioimg101x-1
-
   instructors:
     - Professor Graham Galloway
   year: 2014
@@ -121,6 +120,7 @@ https://www.udacity.com/courses/ud809."
   tag: med
 
 - course: The Science of Safety in Healthcare
+  url: https://www.coursera.org/course/healthcaresafety
   institute: Coursera / Johns Hopkins University
   instructors: 
    - Cheryl Dennison Himmelfarb, RN, ANP, PhD, FAAN
@@ -143,6 +143,7 @@ https://www.udacity.com/courses/ud809."
   tag: med
 
 - course: "Circadian clocks: how rhythms structure life"
+  url: https://www.coursera.org/course/circaclock
   institute: Coursera / Ludwig-Maximilians-Universität München
   instructors:
    - Prof. Martha Merrow, PhD
@@ -151,10 +152,12 @@ https://www.udacity.com/courses/ud809."
   tag: med
 
 - course: Nutrition and Physical Activity for Health
+  url: https://www.coursera.org/course/nutritionforhealth
   institute: Coursera / University Of Pittsburgh
   tag: med
 
 - course: "Exercise Physiology: Understanding the Athlete Within"
+  url: https://www.coursera.org/course/exphys
   institute: Coursera / University Of Melbourne
   tag: med
 
@@ -163,22 +166,36 @@ https://www.udacity.com/courses/ud809."
   tag: med
 
 - course: "CHEM181x: Food for Thought"
+  url: https://www.edx.org/course/food-thought-mcgillx-chem181x-1
   institute: McGillX
+  instructors:
+   - Ariel Fenster
+   - David N. Harpp
+   - Joe Schwarcz
   tag: med
 
 - course: "Vital Signs: Understanding What the Body Is Telling Us"
+  url: https://www.coursera.org/learn/vital-signs/
   institute: Coursera / University Of Pennsylvania
   tag: med
 
 - course: "Preventing Chronic Pain: A Human Systems Approach"
+  url: https://www.coursera.org/course/chronicpain
   institute: Coursera / University Of Minnesota
+  instructors:
+   - Dr. James Fricton, DDS, MS
   tag: med
 
 - course: Introduction to Urology
+  url: https://www.edx.org/course/introduction-urology-kix-kiurologyx
   institute: KIx
+  instructors:
+   - Lars Henningsohn
+   - Lotta Renström Koskela
   tag: med
 
 - course: Introduction to the Science of Cancer
+  url: https://www.coursera.org/course/cancer
   institute: Coursera / The Ohio State University
   tag: med
 
@@ -192,10 +209,12 @@ https://www.udacity.com/courses/ud809."
   tag: med
 
 - course: "Acute and Chronic Rhinosinusitis: A Comprehensive Review"
+  url: https://www.coursera.org/learn/icahn-school-of-medicine-at-mount-sinai-acute-and-chronic-rhinosinusitis/
   institute: Coursera / Icahn School of Medicine at Mount Sinai
   tag: med
 
 - course: Genes and the Human Condition (From Behavior to Biotechnology)
+  url: https://www.coursera.org/learn/genes/
   institute: Coursera / University Of Maryland, College Park
   tag: gene
 
@@ -210,10 +229,12 @@ https://www.udacity.com/courses/ud809."
   tag: gene
 
 - course: Epigenetic Control of Gene Expression
+  url: https://www.coursera.org/learn/epigenetics/
   institute: Coursera / University Of Melbourne
   tag: gene
 
 - course: Computational Molecular Evolution
+  url: https://www.coursera.org/course/molevol
   institute: Coursera / Technical University Of Denmark
   tag: gene
 
@@ -223,18 +244,22 @@ https://www.udacity.com/courses/ud809."
   tag: gene
 
 - course: "BIOC300.2x DNA: Biology's Genetic Code"
+  url: https://www.edx.org/course/dna-biologys-genetic-code-ricex-bioc300-2x
   institute: RiceX
   tag: gene
 
 - course: Introduction to Human Behavioral Genetics
+  url: https://www.coursera.org/course/behavioralgenetics
   institute: Coursera / University Of Minnesota
   tag: gene
 
 - course: Introduction to Genomic Technologies
+  url: https://www.coursera.org/learn/introduction-genomics/
   institute: Coursera / Johns Hopkins University
   tag: gene
 
 - course: Genomic Data Science with Galaxy
+  url: https://www.coursera.org/learn/galaxy-project/
   institute: Coursera / Johns Hopkins University
   tag: gene
 
@@ -252,10 +277,12 @@ https://www.udacity.com/courses/ud809."
   tag: gene
 
 - course: "BIOC300.1x: Proteins: Biology's Workforce"
+  url: https://www.edx.org/course/proteins-biologys-workforce-ricex-bioc300-1x-1
   institute: RiceX
   tag: gene
 
 - course: "Bioinformatics: Introduction and Methods 生物信息学: 导论与方法"
+  url: https://www.coursera.org/learn/bioinformatics-pku/
   institute: Coursera / Peking University
   tag: gene
 
@@ -265,14 +292,17 @@ https://www.udacity.com/courses/ud809."
   tag: gene
 
 - course: Bioinformatic Methods I
+  url: https://www.coursera.org/learn/bioinformatics-methods-1/
   institute: Coursera / University Of Toronto
   tag: gene
 
 - course: Programmed Cell Death
+  url: https://www.coursera.org/course/pcd
   institute: Coursera / Ludwig-Maximilians-Universität München
   tag: gene
 
 - course: Drugs and the Brain 
+  url: https://www.coursera.org/course/drugsandbrain
   institute: Coursera / California Institute Of Technology
   tag: neuro
 
@@ -296,64 +326,79 @@ https://www.udacity.com/courses/ud809."
   institute: HarvardX
   tag: neuro
 
-- course: Introduction to Clinical Neurology 
+- course: Introduction to Clinical Neurology
+  url: https://www.coursera.org/course/clinicalneurology
   institute: Coursera / University Of California, San Francisco
   tag: neuro
 
 - course: Medical Neuroscience
+  url: https://www.coursera.org/course/medicalneuro
   institute: Coursera / Duke University Medical School
   tag: neuro
 
 - course: "Understanding the Brain: The Neurobiology of Everyday Life"
+  url: https://www.coursera.org/course/neurobio
   institute: Coursera / University Of Chicago
   tag: neuro
 
 - course: The Addicted Brain
+  url: https://www.coursera.org/learn/addiction-and-the-brain/
   institute: Coursera / Emory University
   tag: neuro
 
 - course: "Introduction to Neuroeconomics: how the brain makes decisions"
+  url: https://www.coursera.org/learn/neuroeconomics/
   institute: Coursera / The Higher School Of Economics
   tag: neuro
 
-- course: The Bilingual Brain 
+- course: The Bilingual Brain
+  url: https://www.coursera.org/course/bibrain
   institute: Coursera / University of Houston
   tag: neuro
 
 - course: Computational Neuroscience
+  url: https://www.coursera.org/course/compneuro
   institute: Coursera / University of Washington
   tag: neuro
 
 - course: The Brain and Space 
+  url: https://www.coursera.org/learn/human-brain/
   institute: Coursera / Duke University
   tag: neuro
 
 - course: Visual Perception and the Brain
+  url: https://www.coursera.org/course/visualpercepbrain
   institute: Coursera / Duke University
   tag: neuro
 
-- course: "BrainX: Cellular mechanisms of brain function" 
+- course: "BrainX: Cellular mechanisms of brain function"
+  url: https://www.edx.org/course/cellular-mechanisms-brain-function-epflx-brainx-1 
   institute: EPFLx
   tag: neuro
 
 - course: Synapses, Neurons and Brains
+  url: https://www.coursera.org/learn/synapses/home/info
   institute: Coursera / Hebrew University
   tag: neuro
 
 
 - course: "GG101x: The Science of Happiness"
+  url: https://www.edx.org/course/science-happiness-uc-berkeleyx-gg101x-2
   institute: BerkeleyX
   tag: neuro
 
 - course: "Sleep: Neurobiology, Medicine, and Society"
+  url: https://www.coursera.org/course/sleep
   institute: Couresra / University of Michigan Medical School
   tag: neuro
 
 - course: Introduction to Light, Color, and Life
+  url: https://www.coursera.org/course/healthcaresafety
   institute: Coursera / Korea Advanced Institute Of Science And Technology
   tag: neuro
 
 - course: Autism Spectrum Disorder
+  url: https://www.coursera.org/learn/autism-spectrum-disorder/
   institute: Coursera / University of California, Davis
   instructors:
    - Patricia Schetter
@@ -362,6 +407,7 @@ https://www.udacity.com/courses/ud809."
   tag: neuro
 
 - course: "Music as Biology: What We Like to Hear and Why"
+  url: https://www.coursera.org/learn/music-as-biology/
   institute: Coursera / Duke University
   instructors:
    - Dr. Dale Purves, M.D.
@@ -369,10 +415,12 @@ https://www.udacity.com/courses/ud809."
   tag: neuro
 
 - course: Heterogeneous Parallel Programming
+  url: https://www.coursera.org/course/hetero
   institute: Coursera / The University Of Illinois At Urbana-Champaign
   tag: compsci
 
 - course: "Image and video processing: From Mars to Hollywood with a stop at the hospital"
+  url: https://www.coursera.org/course/images
   institute: Coursera / Duke University
   tag: compsci
 
@@ -401,6 +449,7 @@ https://www.udacity.com/courses/ud809."
   tag: compsci
 
 - course: Functional Programming Principles in Scala
+  url: https://www.coursera.org/course/progfun
   institute: Coursera / The Ecole Polytechnique Federale De Lausanne
   instructors:
    - Martin Odersky
@@ -409,9 +458,11 @@ https://www.udacity.com/courses/ud809."
 
 - course: Introduction to Systematic Program Design - Part 1
   institute: Coursera / University Of British Columbia
+  note: this course moved to EdX https://www.edx.org/course/how-code-systematic-program-design-part-ubcx-spd1x
   tag: compsci
 
 - course: Digital Signal Processing
+  url: https://www.coursera.org/course/dsp
   institute: Coursera / Ecole Polytechnique Fédérale De Lausanne
   tag: compsci
 
@@ -432,6 +483,7 @@ https://www.udacity.com/courses/ud809."
   tag: compsci
 
 - course: AV102 ESaaS – Managing Distributed Teams
+  url: https://edge.edx.org/courses/AgileVentures/AV102/Spring_2014/about
   institute: Agile Ventures / Hawaii Pacific University / UC Berkeley
   tag: se
 
@@ -444,17 +496,20 @@ https://www.udacity.com/courses/ud809."
   tag: se
 
 - course: "Risk and Opportunity: Managing Risk for Development"
+  url: https://www.coursera.org/course/managerisk
   institute: Coursera / The World Bank
   tag: se
 
 - course: An Introduction to Operations Management
+  url: https://www.coursera.org/learn/wharton-operations
   institute: Coursera / University Of Pennsylvania
   instructors:
    - Christian Terwiesch
   year: 2012
   tag: se
 
-- course: Organizational Analysis	
+- course: Organizational Analysis
+  url: https://www.coursera.org/course/organalysis	
   institute: Coursera / Stanford
   instructors:
    - Professor Daniel A. McFarland, PhD
@@ -462,10 +517,12 @@ https://www.udacity.com/courses/ud809."
   tag: se
 
 - course: Creative, Serious and Playful Science of Android Apps
+  url: https://www.coursera.org/course/androidapps101
   institute: Coursera / University Of Illinois At Urbana-Champaign
   tag: wmc
 
-- course: Creative Programming for Digital Media &amp; Mobile Apps
+- course: Creative Programming for Digital Media & Mobile Apps
+  url: https://www.coursera.org/course/digitalmedia
   institute: Coursera / University Of London
   tag: wmc
 
@@ -474,14 +531,17 @@ https://www.udacity.com/courses/ud809."
   tag: wmc
 
 - course: Web Application Architectures
+  url: https://www.coursera.org/course/webapplications
   institute: Coursera / University Of New Mexico
   tag: wmc
 
 - course: Learn HTML5 from W3C
+  url: https://www.edx.org/course/html5-introduction-w3cx-html5-0x
   institute: W3Cx
   tag: wmc
 
 - course: Introduction to HTML5
+  url: https://www.coursera.org/learn/html
   institute: Coursera /  University of Michigan
   tag: wmc
 
@@ -519,18 +579,22 @@ https://www.udacity.com/courses/ud809."
   tag: wmc
 
 - course: "DEV208x: Introduction to jQuery"
+  url: https://www.edx.org/course/introduction-jquery-microsoft-dev208x-1
   institute: Microsoft / EdX
   tag: wmc
 
 - course: "DEV203x: Introduction to Bootstrap – a tutorial"
+  url: https://www.edx.org/course/introduction-bootstrap-tutorial-microsoft-dev203x-0
   institute: Microsoft / EdX
   tag: wmc
 
 - course: CloudIntro.x Introduction to Cloud Computing
+  url: https://www.edx.org/course/introduction-cloud-computing-ieeex-cloudintro-x-1
   institute: IEEEx
   tag: wmc
 
 - course: "INF201.13x: Introduction to Cloud Computing"
+  url: https://www.edx.org/course/introduction-cloud-computing-microsoft-inf201-13x-0
   institute: Microsoft / EdX
   instructors:
    - Björn Rettig
@@ -542,22 +606,36 @@ https://www.udacity.com/courses/ud809."
   tag: wmc
 
 - course: Introduction to Databases
+  url: https://lagunita.stanford.edu/courses/Home/Databases/Engineering/about
   institute: Stanford University
   tag: dat
 
 - course: "M101P: MongoDB for Developers"
+  url: https://university.mongodb.com/courses/M101P/about
   institute: Mongodb University
   tag: dat
 
 - course: "M101JS: MongoDB for Node.js Developers"
+  url: https://university.mongodb.com/courses/M101JS/about
   institute: Mongodb University
   tag: dat
 
 - course: Data Mining with Weka
+  url: https://weka.waikato.ac.nz/dataminingwithweka/preview
   institute: University of Waikato
+  instructors:
+    - Prof Ian H. Witten 
+  tag: dat
+
+- course: More Data Mining with Weka
+  url: https://weka.waikato.ac.nz/moredataminingwithweka/course
+  institute: University of Waikato
+  instructors:
+    - Prof Ian H. Witten 
   tag: dat
 
 - course: "ISE101X: Knowledge Management and Big Data in Business"
+  url: https://www.edx.org/course/knowledge-management-big-data-business-hkpolyux-ise101x-0
   institute: HKPolyUx
   tag: dat
 
@@ -566,6 +644,7 @@ https://www.udacity.com/courses/ud809."
   tag: dat
 
 - course: Pattern Discovery in Data Mining
+  url: https://www.coursera.org/learn/data-patterns/
   institute: Coursera / University of Illinois at Urbana-Champaign
   tag: dat
 
@@ -584,18 +663,22 @@ https://www.udacity.com/courses/ud809."
   tag: dat
 
 - course: "Process Mining: Data science in Action"
+  url: https://www.coursera.org/learn/process-mining/
   institute: Coursera / Eindhoven University Of Technology
   tag: dat
 
 - course: Mining Massive Datasets
+  url: https://www.coursera.org/course/mmds
   institute: Coursera / Stanford
   tag: dat
 
 - course: "The Data Scientist’s Toolbox"
+  url: https://www.coursera.org/learn/data-scientists-tools/
   institute: Coursera / Johns Hopkins University
   tag: dat
 
 - course: "MAS.S69x: Big Data and Social Physics"
+  url: https://www.edx.org/course/big-data-social-physics-mitx-mas-s69x
   institute: MITx
   tag: dat
 
@@ -604,10 +687,12 @@ https://www.udacity.com/courses/ud809."
   tag: dat
 
 - course: Reproducible Research
+  url: https://www.coursera.org/learn/reproducible-research/
   institute: Coursera / Johns Hopkins University
   tag: dat
 
 - course: Statistics in Medicine
+  url: http://online.stanford.edu/course/statistics-medicine-Summer-2014
   institute: Stanford Online
   tag: dat
 
@@ -654,6 +739,7 @@ https://www.udacity.com/courses/ud809."
   tag: math
 
 - course: Introduction to Mathematical Philosophy
+  url: https://www.coursera.org/course/mathphil
   institute: Coursera / LUDWIG-MAXIMILIANS-UNIVERSITÄT MÜNCHEN (LMU)
   instructors:
    - Prof. Dr. Hannes Leitgeb
@@ -662,18 +748,22 @@ https://www.udacity.com/courses/ud809."
   tag: math
 
 - course: Modeling and Simulation using MATLAB
+  url: https://iversity.org/en/courses/modelling-and-simulation-using-matlab
   institute: Iversity / Jacobs University Bremen
   tag: math
 
 - course: Introduction to Complexity
+  url: https://www.complexityexplorer.org/courses/27-introduction-to-complexity-summer-2015
   institute: Santa Fe Institute
   tag: math
 
 - course: Introduction to Dynamical Systems and Chaos
+  url: https://www.complexityexplorer.org/courses/27-introduction-to-complexity-summer-2015
   institute: Santa Fe Institute
   tag: math
 
 - course: "Games without Chance: Combinatorial Game Theory"
+  url: https://www.coursera.org/learn/combinatorial-game-theory/home/info
   institute: Coursera / Georgia Institute Of Technology
   tag: math
   instructors:
@@ -681,6 +771,7 @@ https://www.udacity.com/courses/ud809."
   year: 2013
 
 - course: Game Theory
+  url: https://www.coursera.org/course/gametheory
   institute: Coursera / Stanford University
   tag: math
   instructors:
@@ -700,6 +791,7 @@ https://www.udacity.com/courses/ud809."
   year: 2016
 
 - course: Probabilistic Graphical Models
+  url: https://www.coursera.org/course/pgm
   institute: Coursera / Stanford
   instructors:
    - Daphne Koller
@@ -721,6 +813,7 @@ https://www.udacity.com/courses/ud809."
   tag: ai
 
 - course: "CS188.1x: Artificial Intelligence"
+  url: https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x
   institute: BerkelyX
   instructors:
    - Pieter Abbeel
@@ -747,16 +840,29 @@ https://www.udacity.com/courses/ud809."
   year: 2012
   tag: ai
 
+- course: Discrete Inference and Learning in Artificial Vision
+  institute: Coursera / École Centrale Paris
+  instructors:
+   - Nikos Paragios
+   - Pawan Kumar
+  year: 2014
+  tag: ai  
+
 - course: Artificial Intelligence Planning
+  url: https://www.coursera.org/course/aiplan
   institute: Coursera / The University Of Edinburgh
   tag: ai
 
 - course: Control of Mobile Robots
+  url: https://www.coursera.org/learn/mobile-robot/home/info
   institute: Coursera / Georgia Institute Of Technology
   tag: ai
 
 - course: Mobile Robotics
+  url: https://www.open2study.com/courses/mobile-robotics
   institute: Open2study / Swinburne University Of Technology
+  instructors:
+   - Dr. Michelle Dunn
   tag: ai
 
 - course: Robotic Vision
@@ -776,11 +882,18 @@ https://www.udacity.com/courses/ud809."
   tag: ai
 
 - course: "Copyright for Educators & Librarians"
+  url: https://www.coursera.org/learn/copyright-for-education/
   institute: Coursera / Duke University
   tag: msc
 
-- course: "IPLAW1x Intellectual Property Law and Policy: Part 1"
-  url: https://www.edx.org/course/intellectual-property-law-policy-part-1-pennx-iplaw1x
+- course: "IPLAW1x Intellectual Property Law and Policy"
+  units: 
+   - name: "Part 1: IP and Patent Laws"
+     url: https://www.edx.org/course/intellectual-property-law-policy-part-1-pennx-iplaw1x
+     year: 2016
+   - name: "Part 2: Copyright and Trademark Laws"
+     url: https://www.edx.org/course/intellectual-property-law-policy-part-2-pennx-iplaw1x
+     year: 2016
   institute: PennX
   year: 2016
   instructors:
@@ -788,10 +901,12 @@ https://www.udacity.com/courses/ud809."
   tag: msc
 
 - course: "Miracles of Human Language: An Introduction to Linguistics"
+  url: https://www.coursera.org/learn/human-language/
   institute: Coursera / Universiteit Leiden
   tag: msc
 
 - course: Cryptography I
+  url: https://www.coursera.org/learn/crypto/
   institute: Coursera / Stanford
   instructors:
    - Dan Boneh
@@ -803,14 +918,17 @@ https://www.udacity.com/courses/ud809."
   tag: msc
 
 - course: "The Extremes of Life: Microbes and Their Diversity"
+  url: https://www.edx.org/course/extremes-life-microbes-diversity-kyotoux-003x
   institute: KyotoUx
   tag: msc
 
 - course: Introduction to Forensic Science
+  url: https://www.coursera.org/course/ntufsc
   institute: Coursera / Nanyang Technological University
   tag: msc
 
 - course: Introduction to Digital Sound Design
+  url: https://www.coursera.org/course/digitalsounddesign
   institute: Coursera / Emory University
   instructors:
    - Professor Steve Everett, DMA
@@ -818,6 +936,7 @@ https://www.udacity.com/courses/ud809."
   tag: msc
 
 - course: "BMPR365x: Vocal Recording Technology"
+  url: https://www.edx.org/course/music-production-vocal-recording-berkleex-bmpr365x-1
   institute: BerkleeX
   instructors:
    - Prince Charles Alexander
@@ -825,6 +944,7 @@ https://www.udacity.com/courses/ud809."
   tag: msc
 
 - course: Introduction to Music Production
+  url: https://www.coursera.org/learn/music-production/
   institute: Coursera / Berklee College of Music
   instructors:
    - Professor Loudon Stearns
@@ -832,6 +952,7 @@ https://www.udacity.com/courses/ud809."
   tag: msc
 
 - course: Galaxies and Cosmology
+  url: https://www.coursera.org/course/cosmo
   institute: Coursera / California Institute Of Technology (CALTECH)
   instructors:
    - Professor S. G. Djorgovski
@@ -839,30 +960,37 @@ https://www.udacity.com/courses/ud809."
   tag: msc
 
 - course: Disaster Preparedness
+  url: https://www.coursera.org/learn/disaster-preparedness/
   institute: Coursera / University Of Pittsburgh
   tag: msc
 
 - course: "4.605x: A Global History of Architecture: Part 1"
+  url: https://www.edx.org/course/global-history-architecture-mitx-4-605x3
   institute: Mitx
   tag: msc
 
 - course: Introduction to Communication Science
+  url: https://www.coursera.org/learn/communication/
   institute: Coursera / University Of Amsterdam
   tag: msc
 
 - course: Experimentation for Improvement
+  url: https://www.coursera.org/learn/experimentation/
   institute: Coursera / McMaster University
   tag: msc
 
 - course: Psychological First Aid
+  url: https://www.coursera.org/learn/psychological-first-aid/
   institute: Coursera / Johns Hopkins University
   tag: msc
 
 - course: Unethical Decision Making in Organizations
+  url: https://www.coursera.org/course/unethicaldecision
   institute: Coursera / University of Lausanne
   tag: msc
 
 - course: "Risk and Opportunity: Managing Risk for Development" 
+  url: https://www.coursera.org/course/managerisk
   institute: Coursera / The World Bank
   instructors:
    - Anca Maria Podpiera
@@ -895,7 +1023,7 @@ https://www.udacity.com/courses/ud809."
   year: 2016
   instructors: 
    - Marcy Souza
-  tag: med
+  tag: msc
  
 - course: Enhance Your Career and Employability Skills
   instirtute: Coursera / The University of London

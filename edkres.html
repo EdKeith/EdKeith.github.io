@@ -1,35 +1,44 @@
 ---
 layout: main
-title: Ed Keith's Resum&eacute
+title: Ed Keith's Resum&eacute;
+educats:
+ - tag: med
+   title: "Health & Medicine"
+   collection: []
+ - tag: gene
+   title: "Molecular Biology, Genetics, & Bioinformatics"
+   collection: []
+ - tag: neuro
+   title: "Neuroscience & Cognitive Science"
+   collection: []
+ - tag: wmc
+   title: "Web, Mobile, & Cloud Development"
+   collection: []
+ - tag: compsci
+   title: "Computer Science & Programming" 
+   collection: []
+ - tag: se
+   title: "Software Engineering, Business Analysis & Project Management"
+   collection: []
+ - tag: dat
+   title: "Data Storage & Retrieval, Data Analysis, Data Mining & Big Data"
+   collection: []
+ - tag: math
+   title: "Mathematics & Mathematical Modeling"
+   collection: []
+ - tag: ai
+   title: "Artificial Intelligence, Robotics & Machine Learning"
+   collection: []
+ - tag: msc
+   title: "Other Courses"
+   collection: []
 ---
-<div class='container'>
-   {% include resheader.html %}
-  
-    <div class="tab-content">
-        {% include reshealthobj.html %}
+{% assign topic = "med" %}
+{% assign objdata = site.data.healthobj %}
+{% assign qualdata = site.data.healthqual %}
+{% assign biodata = site.data.healthbio %}
+{% assign edc = page.educats %}
 
-        {% include reshealthqual.html %}
+{% include res.html %}
 
-        {% include reshealthbio.html %}
 
-        {% include resemp.html %}
-
-        {% include resedu.html %}
-
-        {% include rescontact.html %}
-
-        {% include reslang.html %}
-
-        {% include resplatform.html %}
-
-	<!-- section id="technologies" class="tab-pane fade">
-	<h2>Technologies</h2>
-	<p>Some content in menu 2.</p>
-	</section -->
-
-    </div>
-</div>
-
-<footer class="container-fluid text-right">
-    <p>Copyright &copy; Ed Keith 2015 all rights reserved.</p> 
-</footer>

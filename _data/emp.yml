@@ -1,0 +1,62 @@
+# my employment history
+
+- course: Health Informatics in the Cloud
+  institute: Coursera / Georgia Institute Of Technology
+  year: 2013
+  note:  "courses seems to have taken down the page for health informatics in the cloud,
+          but it looks like the lectures are now at https://www.udacity.com/courses/ud809." 
+  instructors:
+    - Mark Braunstein
+  tag: med
+
+
+
+- employer: Self Employed
+  pos:
+   - title: Independent Contractor
+     sdate: 1998
+     edate: Present
+  description:
+     - bullet: > 
+         Contracted to *Pyramid Digital Solutions* for three months on distributed 
+         team developing a web based front-end for a retirement plan management 
+         system for *TIAA-CREF*. 
+         Stayed on with *Sungard* for 20 additional months after they acquired 
+         Pyramid Digital Solutions. 
+ 
+     - bullet: > 
+         Maintained & supported system to predict aircraft drive train component
+         failure based on vibrational analysis for *B.F. Goodrich Aerospace*.
+ 
+     - bullet: > 
+         Built data model for the joint strike fighter lift fan maintenance program
+         for *B.F. Goodrich Aerospace*.
+ 
+     - bullet: > 
+         Developed web sites for publishers, real estate agents, musicians & teachers.
+ 
+     - bullet: > 
+         Developed multi platform installers for *MeetingMaker* & *RulesPower*.
+ 
+     - bullet: > 
+         Created, maintained & enhanced multi platform build system for *MeetingMaker*.
+
+- employer: Geo-Centers, Inc.
+  pos:
+   - title: Senior Software Engineer
+     sdate: 1997
+     edate: 1998
+   - title: Contract Programmer
+     sdate: 1995
+     edate: 1996
+  description:
+   - bullet: > 
+      Developed vehicle mounted multi sensor land mine detector.
+
+   - bullet: > 
+      Redesigned embedded real time backpack magnetometer software to improve GPS.
+
+   - bullet: > 
+      Designed proposed international standard file format for ground penetrating focused array radar data.
+ 
+

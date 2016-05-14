@@ -1,0 +1,66 @@
+# qualifications for health care position
+
+- header: Pharmacokinetic Modeling and Clinical Decision Support System
+  content: >
+    Rewrote & enhanced a pharmacokinetic modeling system at CSL. 
+    Assisted pharmacologists building pharmacokinetic models for treatment, research, and
+    forensics. 
+    On at least two occasions my models were instrumental in saving
+    lives. 
+    Created models for expert witness testimony in drunk driving cases.
+
+- header: Electronic Health Records
+  content: >
+    Provided deployment, maintenance, support & training for the US Army’s
+    Occupational Health Management Information System (OHMIS) that collected
+    electronic medical records and environmental heath exposure data world wide
+    and consolidated it to a central data repository.
+
+- header: Requirements Analysis
+  content: >
+    Wrote requirements specification for FEMA's accounting system. Facilitated
+    meetings of diverse stake holders, interviewed users, and searched legal
+    documents to collect functional, work flow, & regulatory requirements and
+    build a data model.
+
+- header: Data Modeling
+  content: |
+    Developed & supported an enterprise data modeling tool and developed
+    teaching materials for data modeling training seminars at IESC.
+
+    Built data model to capture operational, performance, & vibration data
+    to predict component failure & optimize maintenance schedule for Sikorsky's
+    lift fan used in Boeing's joint strike fighter proposal while at B.F.
+    Goodrich.
+
+    Designed Geo-Centers' proposed international standard file format for
+    interchange of ground penetrating focused array radar data. Each group used a
+    proprietary format that implicitly assumed the unique array geometry and
+    timing sequences of their system. It was necessary to develop a format which
+    could explicitly encode any possible geometric and timing configuration.
+
+- header: Web Based Interface To Legacy System
+  content: >
+    Developed a web based interface to a legacy retirement plan management
+    system for TIAA-CREF. The system walked the user through a dynamic guided
+    interview process that adapted to accommodate the answers given. The data was
+    checked for inconstancies, and a virtual card deck was created and sent to
+    the legacy system.
+
+- header: Expert Systems
+  content: >
+    Created expert systems to automate emergency room triage for CLS, evaluate
+    data models for IESC, and guide web based interviews for TIAA-CREF.
+
+- header: Image Analysis & Feature Detection 
+  content: >
+    Responsible for hardware & software design for and coding of the
+    infrared subsystem of Geo-Centers' vehicle mounted multi-sensor land mine
+    detector. Used statistical analysis, fuzzy logic, & digital signal processing
+    to analyze 3 dimensional radar data, 2 dimensional IR images, and 1
+    dimensional magnetometer data to identify and locate land mines. Developed
+    algorithm that greatly improved the resolution from course grained
+    magnetometer data. Geo-centers considered migrating the technology for tumor
+    detection, but decided not to enter the medical field.
+
+
