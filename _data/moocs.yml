@@ -540,11 +540,6 @@
   institute: W3Cx
   tag: wmc
 
-- course: Introduction to HTML5
-  url: https://www.coursera.org/learn/html
-  institute: Coursera /  University of Michigan
-  tag: wmc
-
 - course: HTML5 
   units:
     - name: "Part 1: HTML5 Coding Essentialsand Best Practices"
@@ -556,6 +551,23 @@
   instructors:
     - Michel Buffa
   institute: W3Cx
+  tag: wmc
+
+- course: Introduction to HTML5
+  url: https://www.coursera.org/learn/html
+  institute: Coursera /  University of Michigan
+  instructors:
+   - Colleen van Lent, Ph.D.
+  year: 2016
+  tag: wmc
+
+ - course: Introduction to CSS3
+  url: https://www.coursera.org/learn/introcss/
+  institute: Coursera /  University of Michigan
+  instructors:
+   - Colleen van Lent, Ph.D.
+  year: 2016
+  grade: 96.7%
   tag: wmc
 
 - course: "Responsive Website Basics: Code with HTML, CSS, and JavaScript"
