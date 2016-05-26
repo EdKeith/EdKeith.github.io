@@ -5,9 +5,11 @@
   year: 2013
   note: >
     "courses seems to have taken down the page for health informatics in the cloud,
-     but it looks like the lectures are now at https://www.udacity.com/courses/ud809." 
-  instructors:
+     but it looks like the lectures are now at [https://www.udacity.com/courses/ud809]." 
+  instructors: 
     - Mark Braunstein
+  Details: >
+    A high level overview of hl7 and it's technical, leagal, and social ramifications.
   tag: med
 
 - course: Health Informatics on FHIR

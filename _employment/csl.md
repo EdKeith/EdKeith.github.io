@@ -16,6 +16,10 @@ points:
     - med
     - comp
  - point: Developed prototype expert system for emergency room triage.
+   tags:
     - med
     - comp
+ - point: Supported record system for trama centers.
+   tags:
+    - med
 ---
