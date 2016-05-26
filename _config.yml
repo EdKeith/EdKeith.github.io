@@ -20,5 +20,7 @@ defaults:
     values:
       author: Ed Keith
 
+gems:
+  - jekyll-feed
 
 
