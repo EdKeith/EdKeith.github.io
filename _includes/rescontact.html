@@ -1,30 +1,32 @@
 <section id="contact" class="tab-pane fade">
     <h2>Contact Information</h2>
 
-    <address class="vcard">
+    <address class="vcard h-card p-contact">
     <!-- 
     Note: this is the proper use of the address tag as
     Ed Keith is responsible for maintaining this web page.
     -->
     <p class="adr">
 
-	<span class="fn">
+	<span class="fn p-name">
 	    <!-- a class="url" href="#" -->
-	    <span class="given-name">Ed</span> <span class="family-name">Keith</span>
+	    <span class="given-name p-given-name">Ed</span> 
+            <span class="family-name p-family-name">Keith</span>
 	    <!-- /a -->
 	</span>
-	<br>
-	<span class="post-office-box">P.O. Box 750010</span><br>
-	<span class='locality'>Arlington</span>
-	<span class="region">MA</span>
-	<span class="postal-code">02475-0010</span><br>
-	<span class="country-name">U.S.A.</span>
-	<br>
-	<a class="email" href="mailto:edkeith@inbox.com">
+	<div class='p-adr'>
+	<span class="post-office-box p-post-office-box">P.O. Box 750010</span><br>
+	<span class='locality p-locality'>Arlington</span>
+	<span class="region p-region">MA</span>
+	<span class="postal-code p-postal-code">02475-0010</span><br>
+	<span class="country-name p-country-namr">U.S.A.</span>
+	</div>
+	<a class="email u-email" href="mailto:edkeith@inbox.com">
 	    <span class="type">pref</span><span>erred email: edkeith@inbox.com</span>
 	</a>
 	<br>
-	<span class="tel">1(781)641-2519</span>
+	<span class="tel p-tel">1(781)641-2519</span>
+        <!-- p-key  cryptographic public key e.g. SSH or GPG  -->
     </address>
 </section>
 

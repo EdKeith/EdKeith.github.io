@@ -6,7 +6,8 @@
     {% for x in emp_hist reversed  %}
 	{% if x.tags contains topic %}
 
-	<section id='emp_{{ x.abbreviation }}' class="panel panel-default">
+	<section id='emp_{{ x.abbreviation }}' 
+                 class="panel panel-default p-experience">
 	    <h3 class="panel-heading">
 		<span class='ph panel-title'>
 		    <a data-toggle="collapse"
@@ -14,14 +15,16 @@
 		       href="#{{ x.abbreviation  }}_acc">
                        {% if x.employer %}
 			<div class='row'>
-			    <div class='col-sm-12  employer'>
+			    <div class='col-sm-12  employer p-location'>
 				{{ x.employer }}</div>
 			</div>
                         {% endif %}
 			{% for p in x.positions %}
 			<div class='row'>
-			    <div class='col-xs-6 emptitle'>{{ p.position }}</div>
+			    <div class='col-xs-6 emptitle p-name'>{{ p.position }}</div>
+                            <!-- need to change to 'dt-start' [to 'dt-end'] -->
 			    <div class='col-md-4 empdates_ text-right'>{{ p.dates }}</div>
+                         
 			</div>
 		       {% endfor %}
 

@@ -12,8 +12,8 @@
 	<div class='panel-body'>
 	    {% assign moocs = site.data.moocs | where: "tag", tag %}
 	    {% for c in moocs %} 
-		<div class='row'>
-		    <div class='col-sm-6 text-sm-left text-xs-center class'>
+		<div class='row p-education'>
+		    <div class='col-sm-6 text-sm-left text-xs-center class p-name'>
                         {% if c.url %}
                             <a href="{{c.url}}" target="_blank">{{ c.course | escape }}</a>
                         {% else %}
@@ -27,7 +27,8 @@
                             {% endif %}
 			{% endfor %}
 		    </div>
-		    <div class='hidden-xs col-sm-6  institute'>
+                    <!-- add date as 'dt-start' -->
+		    <div class='hidden-xs col-sm-6  institute p-location'>
 			{{ c.institute | escape }}
 		    </div>
 		</div>
