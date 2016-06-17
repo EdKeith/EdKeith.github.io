@@ -303,6 +303,14 @@
   institute: Coursera / Ludwig-Maximilians-Universität München
   tag: gene
 
+- course: "MCB64.1x Cell Biology: Mitochondria"
+  url: https://www.edx.org/course/cell-biology-mitochondria-harvardx-mcb64-1x
+  institute: HarvardX
+  date: 2016
+  instructors:
+    - Robert A. Lue
+  tag: gene
+
 - course: Drugs and the Brain 
   url: https://www.coursera.org/course/drugsandbrain
   institute: Coursera / California Institute Of Technology
@@ -570,6 +578,14 @@
    - Colleen van Lent, Ph.D.
   year: 2016
   grade: 96.7%
+  tag: wmc
+
+- course: Interactivity with JavaScript
+  url: https://www.coursera.org/learn/javascript
+  date: 2016
+  instructors:
+    - Colleen van Lent, Ph.D.
+  institute: Coursera / University of Michigan
   tag: wmc
 
 - course: "Responsive Website Basics: Code with HTML, CSS, and JavaScript"

@@ -5,6 +5,7 @@ positions:
   - position: 'Contract Programmer' 
     start: 1992
     end: 1994
+    dates: 1992-1994
 tags:
  - med
  - comp
