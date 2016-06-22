@@ -129,6 +129,10 @@ blockquote footer{
   padding-top:1px;
   padding-left:0.5em;
 }
+.catchphrase {
+  padding-right: 3.0em;
+}
+
 /*
 .vbottom {
  position:relative; 

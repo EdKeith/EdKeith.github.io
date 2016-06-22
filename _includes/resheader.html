@@ -31,7 +31,7 @@
 			<li><a data-toggle="tab" href="#education">Education</a></li>
 		    </ul>
 		</li>
-		<li><a data-toggle="tab" href="#contact">Contact</a></li>
+		<!-- li><a data-toggle="tab" href="#contact">Contact</a></li -->
 		<!-- li class="dropdown" >
 		    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
 			Keywords<span class="caret"></span>
@@ -44,9 +44,194 @@
 		    </ul>
 		</li -->
 	    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+		<li><a  data-toggle="modal" 
+			data-target="#contactModal">
+			<span class="fa fa-envelope-o"
+                              aria-hidden="true"></span> 
+			    Contact Ed
+		    </a>
+		</li>
+	    </ul>
 	</div>
     </div>
 </nav>
+
+<script>
+function submitForm(){
+    console.log("sumiting form");
+    // disable submit button
+    var submitbtn = $('#contactModalSubmit');
+    submitbtn.attr('disabled', true);
+    // relabel submit button
+    var oldSubVal = submitbtn.html();
+    submitbtn.html('Processing . . .');
+
+    // post form data
+    var address = "https://getsimpleform.com/messages" +
+		"?form_api_token=cb421c7cc83cf76f769e61d0dd30d0e6";
+    var reportSuccess = function(){
+        console.log("submit succeded");
+        // put dismissible alert into modal footer
+        var alertStr = 
+		"<div "+
+		    "class='alert alert-success fade in alert-dismissible' "+
+		    "role='alert'> " +
+		    "<button type='button' class='close' " + 
+			    "data-dismiss='alert' aria-label='Close'> " +
+			"<span aria-hidden='true'>&times;</span> " +
+		    "</button> " +
+		    "<p>Your message has been sent.</p> " +
+		"</div>";
+	$('#contactModalFoot').html(alertStr);
+	 // reset submit button
+        // submitbtn.html(oldSubVal);
+	// submitbtn.attr('disabled', false);
+    };
+    var onFail = function(){
+        console.log("submit failed");
+        // put dismissible alert into modal footer
+        var alertStr = '<div ' + 
+			    'class="alert alert-danger fade in alert-dismissible" ' +
+			    'role="alert"> ' +
+			    '<button type="button" class="close" ' + 
+			            'data-dismiss="alert" aria-label="Close"> ' +
+			        '<span aria-hidden="true">&times;</span> ' +
+		            '</button> ' +
+		            '</p><strong: Error :</strong> ' +
+		              'There was an error delivering your message.</p>' +
+		         '</div>';
+	$('#contactModalFoot').html(alertStr);
+	 // reset submit button
+        // submitbtn.html(oldSubVal);
+	// submitbtn.attr('disabled', false);
+    };
+    function restetSubmitBtn(){
+         console.log('reseting submit button');
+	 // reset submit button
+        submitbtn.html(oldSubVal);
+	submitbtn.attr('disabled', false);
+    };
+
+    // address = 'badURL';
+    // address = " http://cors.io/?u=" + address;
+
+    $.post(address, $('#messageForm').serialize()).error( onFail ).done(reportSuccess).always(restetSubmitBtn);
+
+   console.log('returned form post');
+    
+   return false;
+};
+</script>
+
+
+<div id="contactModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+	<!-- Modal content-->
+	<div class="modal-content">
+	    <div class="modal-header">
+		<button type="button" 
+			class="close" 
+			data-dismiss="modal">
+		    &times;
+		</button>
+		<h2 class="modal-title">Contact Ed</h2>
+	    </div>
+	    <div class="modal-body">
+
+		<form data-out-action="https://getsimpleform.com/messages?form_api_token=cb421c7cc83cf76f769e61d0dd30d0e6" 
+		      data-out-method="post"
+		      role='form'
+		      class="form-inline-out"
+                      id='messageForm'
+                      onsubmit='return submitForm();'
+		  >
+		    <fieldset>
+			<!-- 
+			the redirect_to is optional, the form will redirect to the referrer on submission
+			-->
+			<input type='hidden' 
+				    name='redirect_to' 
+				   data-test-value='http://cors.io/?u=http://edkeith.github.io/thankyou.html' 
+				   value='http://edkeith.github.io/thankyou.html' 
+                        />
+			<!-- all your input fields here.... -->
+			<div class="form-group">
+			   <label for='name'
+			      class="control-label" >name</label>
+			   <input type='text' 
+				 id='name' 
+				 name='name'
+				 required 
+				 placeholder='Your Name' 
+				 class="form-control" />
+			   <label for='email'
+				  class="control-label" >email</label>
+			   <input type='email'
+				  id='email' 
+				  name='email'
+				  placeholder='your email'
+				  class="form-control"  />
+			</div>
+			<div class="form-group">
+			    <label for='message'
+				   class="control-label" >message</label>
+			    <textarea class="form-control" 
+				      id='message' 
+				      name='message'
+				      rows="5"
+				      placeholder='Your message here' 
+				      required ></textarea>
+			</div>
+			<button type="submit" 
+				 id='contactModalSubmit'  
+				 class="btn btn-info btn-sm" >
+			    Send Message
+			</button>
+			<!-- input type='submit' value='Submit' id='contactModalSubmit'  / -->
+		    </fieldset>
+		</form>
+
+    <address class="vcard h-card p-contact">
+    <!-- 
+    Note: this is the proper use of the address tag as
+    Ed Keith is responsible for maintaining this web page.
+    -->
+    <p class="adr">
+
+	<span class="fn p-name">
+	    <!-- a class="url" href="#" -->
+	    <span class="given-name p-given-name">Ed</span> 
+            <span class="family-name p-family-name">Keith</span>
+	    <!-- /a -->
+	</span>
+	<div class='p-adr'>
+	<span class="post-office-box p-post-office-box">P.O. Box 750010</span><br>
+	<span class='locality p-locality'>Arlington</span>
+	<span class="region p-region">MA</span>
+	<span class="postal-code p-postal-code">02475-0010</span><br>
+	<span class="country-name p-country-namr">U.S.A.</span>
+	</div>
+	<a class="email u-email" href="mailto:edkeith@inbox.com">
+	    <span class="type">pref</span><span>erred email: edkeith@inbox.com</span>
+	</a>
+	<br>
+	<span class="tel p-tel">1(781)641-2519</span>
+    </address>
+
+
+
+	    </div>
+	    <div class='modal-footer' id='contactModalFoot'>
+		<p>File in form to contact me</p>
+	    </div> <!-- modal-footer -->
+	</div> <!-- "modal-content" -->
+    </div> <!-- "modal-dialog" -->
+</div> <!-- id="contactModal"  -->
+
+
+
+
 
 <header>
    <div class="jumbotron">
@@ -54,7 +239,7 @@
        <div class='col-sm-4 text-left vtop'>
 	   <h1 class='name'>Ed Keith</h1>
        </div><!--
-       --><div class='col-sm-8 text-right vbottom'>
+       --><div class='col-sm-8 text-right vbottom catchphrase'>
 	   <p class='tagline'>
 Prepared to apply software development skills
 towards solving healthcare and medical problems.</p>
