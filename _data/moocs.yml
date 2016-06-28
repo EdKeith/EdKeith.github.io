@@ -391,6 +391,13 @@
   institute: Coursera / Hebrew University
   tag: neuro
 
+- course: From neuron to behavior
+  url: https://www.fun-mooc.fr/courses/pasteur/96001/session01/about
+  institute: FUN / Pasteur Institute
+  instructors:
+   - PROF. PIERRE-MARIE LLEDO
+  year: 2016
+  tag: neuro
 
 - course: "GG101x: The Science of Happiness"
   url: https://www.edx.org/course/science-happiness-uc-berkeleyx-gg101x-2
