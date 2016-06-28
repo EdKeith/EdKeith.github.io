@@ -852,6 +852,17 @@
   institute: Coursera / University Of Wisconsin-Madison
   tag: math
 
+- course: SysBio1x Introduction to Systems Biology
+  institute: IEEEx
+  tag: math
+  year: 2016
+  url: https://www.edx.org/course/introduction-systems-biology-ieeex-sysbio1x
+  grade: 87%
+  instructors:
+    - Yong-Jun Shin
+  
+
+
 - course: Artificial Intelligence
   institute: Stanford
   instructors:
