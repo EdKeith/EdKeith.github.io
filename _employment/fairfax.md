@@ -3,6 +3,7 @@ title: Fairfax
 tags:
 - teaching
 - aikido
+position: 5
 employer: Fairfax County Department of Parks & Recreation
 abbreviation: fpr
 Positions:

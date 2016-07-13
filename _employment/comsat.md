@@ -3,6 +3,7 @@ title: Comsat
 tags:
 - med
 - comp
+position: 3
 employer: ComSat
 abbreviation: comsat
 positions:

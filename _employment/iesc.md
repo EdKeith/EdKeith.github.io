@@ -3,6 +3,7 @@ title: Iesc
 tags:
 - med
 - comp
+position: 6
 employer: Information Engineering Systems Corp.
 abbreviation: iesc
 positions:

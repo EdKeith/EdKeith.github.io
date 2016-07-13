@@ -3,6 +3,7 @@ title: Epsilon
 tags:
 - med
 - comp
+position: 4
 employer: Epsilon
 abbreviation: amx
 positions:

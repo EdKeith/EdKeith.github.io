@@ -3,6 +3,7 @@ title: Sec
 tags:
 - med
 - comp
+position: 12
 employer: Security & Exchange Commission
 abbreviation: SEC
 positions:

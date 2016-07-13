@@ -3,6 +3,7 @@ title: Csl
 tags:
 - med
 - comp
+position: 0
 employer: Cedar Systems Limited
 abbreviation: CSL
 positions:

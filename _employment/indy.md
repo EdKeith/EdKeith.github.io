@@ -3,6 +3,7 @@ title: Indy
 tags:
 - med
 - comp
+position: 9
 employer: ''
 abbreviation: ind
 positions:

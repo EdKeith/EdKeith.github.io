@@ -3,6 +3,7 @@ title: Geocenters
 tags:
 - med
 - comp
+position: 8
 employer: Geo-enters, Inc.
 abbreviation: geo
 positions:

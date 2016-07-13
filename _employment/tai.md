@@ -3,6 +3,7 @@ title: Tai
 tags:
 - med
 - comp
+position: 14
 employer: Technology Applications Inc.
 abbreviation: tai
 positions:

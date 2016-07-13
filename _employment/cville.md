@@ -3,6 +3,7 @@ title: Cville
 tags:
 - aikido
 - teaching
+position: 1
 employer: Charlottesville Parks and Recreation
 abbreviation: cpr
 positions:

@@ -4,6 +4,7 @@ tags:
 - med
 - aikido
 - teaching
+position: 13
 employer: Boston Shiatsu School
 abbreviation: bss
 positions:
