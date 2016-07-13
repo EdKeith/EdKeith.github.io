@@ -1,19 +1,20 @@
 ---
+title: Cville
+tags:
+- aikido
+- teaching
 employer: Charlottesville Parks and Recreation
 abbreviation: cpr
 positions:
- - position: Aikido Instructor
-   start: 1986
-   end: 1988
-   dates: 1986-1988
-tags:
- - aikido
- - teaching
+- position: Aikido Instructor
+  start: 1986
+  end: 1988
+  dates: 1986-1988
 seq: 20
 points:
- - point: Taught beginning aikido and ki development class.
-   tags:
-    - aikido
-    - teaching
+- point: Taught beginning aikido and ki development class.
+  tags:
+  - aikido
+  - teaching
 ---
 

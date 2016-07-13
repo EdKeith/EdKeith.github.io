@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Solving the connectedness problem with a connectionist system
-description: >
-  Counter example to Papits proof that a connectionist system cannot   
-  solve the connectedness problem.
+date: 2016-07-13 01:28:35.361000000 Z
+layout: post
+description: |
+  Counter example to Papits proof that a connectionist system cannot    solve the connectedness problem.
 ---
 

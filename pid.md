@@ -1,8 +1,9 @@
 ---
-layout: default
 title: A PID Controler
+layout: default
 mathjax: true
 ---
+
 This is a test.
 
 When $$ `a != 0` $$, there are two solutions to $$ `ax^2 + bx + c = 0` $$ and

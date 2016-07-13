@@ -1,26 +1,26 @@
+---
+title: Ed Keith's Site
+timezone: UTC
+collections:
+  employment:
+    title: Employment
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    author: Ed Keith
 name: Ed Keith
 markdown: kramdown
-title: "Ed Keith's Site"
 email: edkeith@inbox.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: |
+  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 git_hub_username: edkeith
-
-collections:
- employment:
-   output: false
-   
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      author: Ed Keith
-
 gems:
-  - jekyll-feed
-
-
+- jekyll-feed
