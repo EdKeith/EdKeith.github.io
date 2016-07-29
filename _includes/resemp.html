@@ -4,7 +4,7 @@
     {% assign emp_hist =  site.employment | sort: 'seq', 'last'   %}
 
     {% for x in emp_hist reversed  %}
-	{% if x.tags contains topic %}
+	{% if topic == null or  x.tags contains topic %}
 
 	<section id='emp_{{ x.abbreviation }}' 
                  class="panel panel-default p-experience">
@@ -35,9 +35,9 @@
 		<div class='panel-body'>
 		    <ul>
                         {% for n in x.points %}
-                        {% if n.tags contains topic %}
-			    <li>{{ n.point |  markdownify }}</li>
-                        {% endif %}
+			    {% if topic == null or n.tags contains topic %}
+				<li>{{ n.point |  markdownify }}</li>
+			    {% endif %}
                         {% endfor %}
 		    </ul>
 		</div>

@@ -47,13 +47,6 @@ points:
  - point: Maintained office computers for an optometrist.
    tags:
     - med
- - point: > 
-    Taught aikido to high school students for **Cambridge School of Weston**
-   dates: 2014-2015
-   note: CORI check
-   tags:
-    - teaching
-    - aikido
  - point: Taught Ki Aikdio seminar for **Kitchener-Waterloo Ki Aikido** 
    dates: November 23 and 24, 2002, 
    tags:

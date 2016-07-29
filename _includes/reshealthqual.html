@@ -1,7 +1,7 @@
-<section id="qualfications" class="tab-pane fade in active p-summary">
+<section id="qualfications" class="tab-pane fade in active p-summary" >
     <h2>Qualifications</h2>
 
-    <blockquote>
+    <!--blockquote>
 	<p>A fox knows many things, but a hedgehog one important thing.</p>
 	<footer>Archilochus</footer>
     </blockquote>
@@ -9,7 +9,7 @@
     I am a fox, not a hedgehog. 
     I have experience in many different problem domains and many different
     solution spaces and know that there is seldom a one size fits all solution.
-    </p>
+    </p -->
     {% for c in qualdata %}
 	<h3>{{ c.header }}</h3>
 	{{ c.content | markdownify }}

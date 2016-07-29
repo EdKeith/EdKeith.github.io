@@ -1,7 +1,7 @@
 ---
 employer: Fairfax County Department of Parks & Recreation
 abbreviation: fpr
-Positions:
+positions:
  - position: Aikido Instructor
    start: 1990
    end: 1994
