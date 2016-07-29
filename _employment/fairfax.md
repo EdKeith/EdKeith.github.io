@@ -1,4 +1,9 @@
 ---
+title: Fairfax
+tags:
+- teaching
+- aikido
+position: 5
 employer: Fairfax County Department of Parks & Recreation
 abbreviation: fpr
 positions:
@@ -11,9 +16,9 @@ tags:
  - aikido
 seq: 170
 points:
- - point: Taught aikido and ki development classes
-   tags:
-    - aikido
-    - teaching
+- point: Taught aikido and ki development classes
+  tags:
+  - aikido
+  - teaching
 ---
 

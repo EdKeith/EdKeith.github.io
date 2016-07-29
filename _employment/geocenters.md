@@ -1,37 +1,41 @@
 ---
-employer: 'Geo-enters, Inc.'
-abbreviation: geo
-positions: 
-  - position: 'Senior Software Engineer' 
-    start: 1997
-    end: 1998
-    dates: 1997-1998
-  - position: 'Contract Programmer'
-    start: 1995
-    end: 1996
-    dates: 1995-1996
+title: Geocenters
 tags:
- - med
- - comp
+- med
+- comp
+position: 8
+employer: Geo-enters, Inc.
+abbreviation: geo
+positions:
+- position: Senior Software Engineer
+  start: 1997
+  end: 1998
+  dates: 1997-1998
+- position: Contract Programmer
+  start: 1995
+  end: 1996
+  dates: 1995-1996
 seq: 390
-keywords: [C++, 
-           GPS, 
-           Image Processing, 
-           computer vision, 
-           Matlab, 
-           embedded systems]
+keywords:
+- C++
+- GPS
+- Image Processing
+- computer vision
+- Matlab
+- embedded systems
 points:
- - point: Developed vehicle mounted multi sensor land mine detector.
-   tags:
-    - med
-    - comp
- - point: Redesigned embedded backpack magnetometer software to improve GPS support.
-   tags:
-    - med
-    - comp
- - point: Designed proposed international standard file format for ground penetrating focused array radar data.
-   tags:
-    - med
-    - comp
+- point: Developed vehicle mounted multi sensor land mine detector.
+  tags:
+  - med
+  - comp
+- point: Redesigned embedded backpack magnetometer software to improve GPS support.
+  tags:
+  - med
+  - comp
+- point: Designed proposed international standard file format for ground penetrating
+    focused array radar data.
+  tags:
+  - med
+  - comp
 ---
 
