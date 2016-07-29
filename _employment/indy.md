@@ -9,8 +9,8 @@ position: 9
 employer: ''
 abbreviation: ind
 positions:
- - position: Independent Contractor
-   dates: 1998 - present
+- position: Independent Contractor
+  dates: 1998 - present
 seq: 400
 points:
 - point: |
@@ -38,31 +38,26 @@ points:
     Created, maintained & enhanced multi platform build system for **MeetingMaker**.
   tags:
   - med
-- point: >
-   Taught candle making, C programming, and PC troubleshooting &
-   repair for **Brookline Adult Education**
-   tags:
-   - teaching
-   years: 1998-2000
+- point: |
+    Taught candle making, C programming, and PC troubleshooting & repair for **Brookline Adult Education** tags: - teaching years: 1998-2000
 - point: Maintained office computers for an optometrist.
   tags:
   - med
-- point: Taught Ki Aikdio seminar for **Kitchener-Waterloo Ki Aikido** 
-  dates: November 23 and 24, 2002, 
+- point: Taught Ki Aikdio seminar for **Kitchener-Waterloo Ki Aikido**
+  dates: November 23 and 24, 2002,
   tags:
-    - teaching
-    - aikido
+  - teaching
+  - aikido
 - point: Taught Aikido for the **Wang YMCA**
   dates: 2001-2011
   tags:
-    - teaching
-    - aikido
-- point: >
-    Tutored a high school Sr. in Object Oriented Software Design & C++
-    programming for The **Lawrence Academy**.
-  dates: 1998 
+  - teaching
+  - aikido
+- point: |
+    Tutored a high school Sr. in Object Oriented Software Design & C++ programming for The **Lawrence Academy**.
+  dates: 1998
   tags:
-    - teaching
+  - teaching
 - point: Furniture mover.
 - point: Landscaping & Gardening.
 ---
