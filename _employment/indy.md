@@ -38,10 +38,10 @@ points:
     Created, maintained & enhanced multi platform build system for **MeetingMaker**.
   tags:
   - med
-- point: |
-    Taught candle making, C programming, and PC troubleshooting & repair for **Brookline Adult Education** 
+- point: "Taught candle making, C programming, and PC troubleshooting & repair for
+    **Brookline Adult Education** \n"
   tags:
-  - teaching 
+  - teaching
   years: 1998-2000
 - point: Maintained office computers for an optometrist.
   tags:
