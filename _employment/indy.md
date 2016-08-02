@@ -39,7 +39,10 @@ points:
   tags:
   - med
 - point: |
-    Taught candle making, C programming, and PC troubleshooting & repair for **Brookline Adult Education** tags: - teaching years: 1998-2000
+    Taught candle making, C programming, and PC troubleshooting & repair for **Brookline Adult Education** 
+  tags:
+  - teaching 
+  years: 1998-2000
 - point: Maintained office computers for an optometrist.
   tags:
   - med
