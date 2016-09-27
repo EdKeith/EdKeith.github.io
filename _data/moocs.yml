@@ -505,7 +505,7 @@
   url: https://www.edx.org/course/introduction-real-time-systems-ieeex-rtsix-0
   instructors:
      - Phillip Laplante Professor of Software and Systems Engineering. The Pennsylvania State University
-   tag: compsci
+  tag: compsci
 
 - course: AV102 ESaaS – Managing Distributed Teams
   url: https://edge.edx.org/courses/AgileVentures/AV102/Spring_2014/about
