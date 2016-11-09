@@ -27,5 +27,5 @@ description: 'Write an awesome description for your new site here. You can edit 
 git_hub_username: edkeith
 gems:
 - jekyll-feed
-
-exclude: [vendor]
+exclude:
+- vendor
