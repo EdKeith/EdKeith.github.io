@@ -669,7 +669,8 @@
   tag: wmc
 
 - course: "INF201.13x: Introduction to Cloud Computing"
-  url: https://www.edx.org/course/introduction-cloud-computing-microsoft-inf201-13x-0
+  url: https://www.edx.org/course/introduction-cloud-computing-microsoft-cloud200x
+  # url: https://www.edx.org/course/introduction-cloud-computing-microsoft-inf201-13x-0
   institute: Microsoft / EdX
   instructors:
    - Björn Rettig
