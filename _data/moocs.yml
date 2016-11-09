@@ -513,6 +513,15 @@
   institute: Agile Ventures / Hawaii Pacific University / UC Berkeley
   tag: se
 
+- course: Agile Software Development
+  url: https://www.edx.org/course/agile-software-development-ethx-asd-1x
+  institute: ETHx
+  instructors:
+   - Bertrand Meyer
+  year: 2016
+  grade: 95%
+  tag: se
+
 - course: Introduction to Software Product Management
   institute: Coursera / University of Alberta
   tag: se
