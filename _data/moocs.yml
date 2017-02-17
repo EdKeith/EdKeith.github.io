@@ -139,6 +139,10 @@
     - name: ".2x: Part 2"
       url: https://www.edx.org/course/fundamentals-immunology-part-2-ricex-bioc372-2x-0 
       year: 2016
+    - name: ".3x: Death by Friendly Fire"
+      year: 2017
+      url: https://www.edx.org/course/fundamentals-immunology-death-friendly-ricex-bioc372-3x
+      grade: "79%"      
   institute: RiceX
   instructors:
    - Dr. Alma Moon Novotny
@@ -165,6 +169,14 @@
 
 - course: "Going Out on a Limb: The Anatomy of the Upper Limb"
   institute: Coursera / University Of Pennsylvania
+  tag: med
+  
+- course: "Anatomy: Know Your Abdomen"
+  institute: Furure Learn / UNIVERSITY OF LEEDS
+  url: https://www.futurelearn.com/courses/anatomy-know-your-abdomen/12
+  grade: "100%"
+  instructors:
+     - James Pickering
   tag: med
 
 - course: "CHEM181x: Food for Thought"
@@ -431,6 +443,22 @@
   year: 2016
   tag: neuro
 
+
+- course: "Louv1 Paradigms of Computer Programming"
+  institute: LouvainX
+  units:
+   - name: ".1x Fundamentals"
+     url: https://www.edx.org/course/paradigms-computer-programming-louvainx-louv1-1x-1
+     grade: "77%"
+     year: 2016
+   - name: ".2x Abstraction and Concurrency"
+     url: https://www.edx.org/course/paradigms-computer-programming-louvainx-louv1-2x-1
+     grade: "80%"
+     year: 2017
+  instructors:
+    = Peter Van Roy Professor of Computing Science and Engineering Universit<E9> catholique de Louvain
+  tag: compsci
+
 - course: Heterogeneous Parallel Programming
   url: https://www.coursera.org/course/hetero
   institute: Coursera / The University Of Illinois At Urbana-Champaign
@@ -604,6 +632,20 @@
   year: 2016
   grade: 96.7%
   tag: wmc
+
+- course: "DEV218x Advanced CSS Concepts"
+  url: https://www.edx.org/course/advanced-css-concepts-microsoft-dev218x
+  institute: Microsoft
+  instructors:
+    - Daren May
+    - Josh Bezdek
+    - Drake Boley
+    - Matt Dixon
+    - Brent Bonet
+  grade: "88%"
+  year: 2017
+  tage: wmc
+
 
 - course: Interactivity with JavaScript
   url: https://www.coursera.org/learn/javascript
