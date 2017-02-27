@@ -1113,6 +1113,16 @@
   url: https://www.coursera.org/learn/communication/
   institute: Coursera / University Of Amsterdam
   tag: msc
+  
+- course: "ELEC1200.1x A System View of Communications: From Signals to Packets (Part 1)"
+  url: https://www.edx.org/course/system-view-communications-signals-hkustx-elec1200-1x-2
+  institute:  Hong Kong University of Science and Technology (HKUSTx)
+  instructors:
+   - Bertram Shi, Professor in the Department of Electronic and Computer Engineering
+   - Shenghui Song, Assistant Professor of Engineering Education
+  grade: "71%"
+  year: 2017
+  tag: msc
 
 - course: Experimentation for Improvement
   url: https://www.coursera.org/learn/experimentation/
