@@ -748,7 +748,16 @@
   url: https://university.mongodb.com/courses/M101JS/about
   institute: Mongodb University
   tag: dat
-
+  
+- course: "M102: MongoDB for DBAs"
+  url: https://university.mongodb.com/courses/M102/about
+  institute: Mongodb University
+  instructors:
+    - Dwight Merriman
+  grade: "90%"
+  year: 2017
+  tag: dat
+  
 - course: Data Mining with Weka
   url: https://weka.waikato.ac.nz/dataminingwithweka/preview
   institute: University of Waikato
