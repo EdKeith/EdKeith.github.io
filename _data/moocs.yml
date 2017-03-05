@@ -706,6 +706,13 @@
   institute: Microsoft / EdX
   tag: wmc
   
+-course: "DEV222x Using Open Source Web Tooling to Improve Development Proficiency"
+ url: https://www.edx.org/course/using-open-source-web-tooling-improve-microsoft-dev222x
+ year: 2017
+ grade: "94%"
+ institute: Microsoft / EdX
+ tag: wmc
+ 
 - course: Introduction to a Web of Linked Data
   url: https://www.fun-mooc.fr/courses/inria/41013/session01/about
   year: 2017
