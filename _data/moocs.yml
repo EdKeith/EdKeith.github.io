@@ -279,13 +279,13 @@
 
 - course: 7.28 Molecular Biology
   units:
-    - name: .1x DNA Replication and Repair
+    - name: ".1x DNA Replication and Repair"
       url: https://www.edx.org/course/molecular-biology-part-1-dna-replication-mitx-7-28-1x1
       year: 2015
-    - name: .2x Transcription and Transposition
+    - name: ".2x Transcription and Transposition"
       url: https://www.edx.org/course/molecular-biology-part-2-transcription-mitx-7-28-2x
       year: 2015
-    - name: .3x Molecular Biology: RNA Processing and Translation
+    - name: ".3x RNA Processing and Translation"
       url: https://www.edx.org/course/molecular-biology-part-2-transcription-mitx-7-28-2x
       year: 2017
       grade: "74%"
