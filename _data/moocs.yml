@@ -285,6 +285,10 @@
     - name: .2x Transcription and Transposition
       url: https://www.edx.org/course/molecular-biology-part-2-transcription-mitx-7-28-2x
       year: 2015
+    - name: .3x Molecular Biology: RNA Processing and Translation
+      url: https://www.edx.org/course/molecular-biology-part-2-transcription-mitx-7-28-2x
+      year: 2017
+      grade: "74%"
   instructors:
     - Stephen P. Bell
   institute: MITx
