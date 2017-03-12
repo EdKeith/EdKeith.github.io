@@ -523,6 +523,15 @@
 - course: Usable Security
   institute: Coursera / University Of Maryland, College Park
   tag: compsci
+  
+- course: Introduction to Python for Data Science
+  url: https://www.edx.org/course/introduction-python-data-science-microsoft-dat208x-4
+  institute: EdX / Microsoft
+  instructors:
+    - Filip Schouwenaars
+    - Jonathan Sanito
+  grade: "95%"
+  tag: compsci
 
 - course: R Programming
   institute: Coursera / Johns Hopkins University
