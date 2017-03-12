@@ -727,7 +727,7 @@
   tag: wmc
  
 - course: Introduction to a Web of Linked Data
-  url: https://www.fun-mooc.fr/courses/inria/41013/session02/about
+  url: https://www.fun-mooc.fr/courses/course-v1:inria+41013+session02/about 
   year: 2017
   instructors:
     - Fabien Gandon
