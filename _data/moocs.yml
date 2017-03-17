@@ -541,6 +541,17 @@
   institute: Coursera / Vanderbilt University
   tag: compsci
 
+- course: DEV210x Introduction to C++
+  institution: Microsoft / EdX
+  year: 2017
+  url: https://www.edx.org/course/introduction-c-microsoft-dev210x-2
+  grade: "98% - one peer gradde assignment not in yet"
+  insatructors:
+    - "Gerry O'Brien Senior Content Development Manager Microsoft"
+    - Kate Gregory Regional Director for Toronto Microsoft
+    - James McNellis Senior Engineer, Microsoft Visual C++ Microsoft
+  tag: compsci
+
 - course: Introduction to Real-Time Systems
   institute: IEEEx
   year: 2016
