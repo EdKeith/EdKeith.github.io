@@ -890,6 +890,17 @@
    - Filip Schouwenaars
   institute: Microsoft / EdX
   tag: dat
+  
+- course: "DAT204x Introduction to R for Data Science"
+  url: https://www.edx.org/course/introduction-r-data-science-microsoft-dat204x-3
+  year: 2017
+  grade: "94%"
+  instructors:
+    - Filip Schouwenaars
+    - Jonathan Sanito
+  institute: Microsoft / EdX
+  tag: dat
+  
 
 - course: Model thinking
   url: https://www.coursera.org/learn/model-thinking
