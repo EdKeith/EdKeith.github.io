@@ -719,6 +719,15 @@
   instructors:
    - David Rossiter
   tag: wmc
+  
+- course: "DEV234x Asynchronous Programming with Javascript"
+  url: https://www.edx.org/course/asynchronous-programming-javascript-microsoft-dev234x
+  institute: Microsoft / EdX
+  year: 2017
+  grade: "84%"
+  tag: wmc
+  instructors:
+   - Benjamin Lin
 
 - course: "DEV208x: Introduction to jQuery"
   url: https://www.edx.org/course/introduction-jquery-microsoft-dev208x-1
