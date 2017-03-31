@@ -739,6 +739,13 @@
   institute: Microsoft / EdX
   tag: wmc
   
+- course: "DEV220x AngularJS: Framework Fundamentals"
+  url: https://www.edx.org/course/angularjs-framework-fundamentals-microsoft-dev220x-0
+  institute: Microsoft / EdX
+  year: 2017
+  grade: "80%"
+  tag: wmc
+
 - course: "DEV222x Using Open Source Web Tooling to Improve Development Proficiency"
   url: https://www.edx.org/course/using-open-source-web-tooling-improve-microsoft-dev222x
   year: 2017
