@@ -524,6 +524,15 @@
   institute: Coursera / University Of Maryland, College Park
   tag: compsci
   
+- course: CYBER501x Cybersecurity Fundamentals
+  url: https://www.edx.org/course/cybersecurity-fundamentals-ritx-cyber501x-0
+  institute: RITx
+  grade: "99%"
+  year: 2017
+  instructors:
+    - Jonathan S. Weissman
+  tag: compsci
+  
 - course: Introduction to Python for Data Science
   url: https://www.edx.org/course/introduction-python-data-science-microsoft-dat208x-4
   institute: EdX / Microsoft
