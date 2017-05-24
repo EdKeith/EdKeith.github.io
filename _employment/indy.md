@@ -14,7 +14,7 @@ positions:
 seq: 400
 points:
 - point: |
-    Contracted to **Sungard** on distributed team developing a web based front-end for a retirement plan management system for **TIAA-CREF**.
+    Contracted to **Pyramid Digital Solutions** & **Sungard** on distributed team developing a web based front-end for a retirement plan management system for **TIAA-CREF**.
   tags:
   - med
   - comp
