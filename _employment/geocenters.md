@@ -4,7 +4,7 @@ tags:
 - med
 - comp
 position: 8
-employer: Geo-enters, Inc.
+employer: Geo-Centers, Inc.
 abbreviation: geo
 positions:
 - position: Senior Software Engineer
