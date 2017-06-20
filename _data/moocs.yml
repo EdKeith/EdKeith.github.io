@@ -583,6 +583,16 @@
   year: 2016
   grade: 95%
   tag: se
+  
+- course: UML Class Diagrams for Software Engineering
+  url: https://www.edx.org/course/uml-class-diagrams-software-engineering-kuleuvenx-umlx
+  institute: KULeuvenX
+  instructors:
+   - Monique Snoeck
+  year: 2017
+  grade: 88%
+  tag: se
+  
 
 - course: Introduction to Software Product Management
   institute: Coursera / University of Alberta
