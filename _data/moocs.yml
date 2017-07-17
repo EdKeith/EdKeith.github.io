@@ -533,6 +533,16 @@
     - Jonathan S. Weissman
   tag: compsci
   
+- course: Computer Forensics
+  url: https://www.edx.org/course/computer-forensics-ritx-cyber502x-0#!
+  institute: RITx
+  grade: "100%"
+  year: 2017
+  instructors:
+    - Yin Pan  Professor, Computing Security  RIT
+  tag: compsci
+  
+  
 - course: Introduction to Python for Data Science
   url: https://www.edx.org/course/introduction-python-data-science-microsoft-dat208x-4
   institute: EdX / Microsoft
