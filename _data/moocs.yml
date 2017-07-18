@@ -625,6 +625,7 @@
   instructors:
    - Dr. Michael Scott Brown, Program Chair of the Software Engineering Master’s University of Maryland University College
    - Dr. Renata Rand McFadden, Adjunct Professor University of Maryland University College
+  tag: se
 
 - course: An Introduction to Operations Management
   url: https://www.coursera.org/learn/wharton-operations
