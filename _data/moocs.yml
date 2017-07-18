@@ -616,6 +616,15 @@
   url: https://www.coursera.org/course/managerisk
   institute: Coursera / The World Bank
   tag: se
+  
+- course: Software Testing Fundamentals
+  url: https://www.edx.org/course/software-testing-fundamentals-usmx-university-maryland-university-stv1-1x
+  institute: USMx
+  year: 2017
+  grade: "90%"
+  instructors:
+   - Dr. Michael Scott Brown, Program Chair of the Software Engineering Master’s University of Maryland University College
+   - Dr. Renata Rand McFadden, Adjunct Professor University of Maryland University College
 
 - course: An Introduction to Operations Management
   url: https://www.coursera.org/learn/wharton-operations
