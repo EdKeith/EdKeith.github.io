@@ -313,6 +313,16 @@
   url: https://www.coursera.org/learn/bioinformatics-methods-1/
   institute: Coursera / University Of Toronto
   tag: gene
+  
+- course: "Clinical Bioinformatics: Unlocking Genomics in Healthcare"
+  url: https://www.futurelearn.com/courses/bioinformatics
+  instutute: Future Learn / University of Manchester
+  year: 2017
+  instructors:
+    - Ang Davies
+    - Andy Brass 
+    - Kieran O'Malley
+  tag: gene
 
 - course: Programmed Cell Death
   url: https://www.coursera.org/course/pcd
