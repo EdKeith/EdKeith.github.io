@@ -2,7 +2,7 @@
     <h2>Contact Information</h2>
 
     <address class="vcard h-card p-contact">
-    <!-- 
+    <!--
     Note: this is the proper use of the address tag as
     Ed Keith is responsible for maintaining this web page.
     -->
@@ -10,7 +10,7 @@
 
 	<span class="fn p-name">
 	    <!-- a class="url" href="#" -->
-	    <span class="given-name p-given-name">Ed</span> 
+	    <span class="given-name p-given-name">Ed</span>
             <span class="family-name p-family-name">Keith</span>
 	    <!-- /a -->
 	</span>
@@ -25,35 +25,35 @@
 	    <span class="type">preferred email: ghr@edkeith.e4ward.com</span>
 	</a>
 	<br>
-	<span class="tel p-tel">1(781)641-2519</span>
+	<span class="tel p-tel">{{ contact.phone }}</span>
     </address>
 
 
-<form action="https://getsimpleform.com/messages?form_api_token=68d3f8774312babc8ea36f7e71b3e1d6" 
+<form action="https://getsimpleform.com/messages?form_api_token=68d3f8774312babc8ea36f7e71b3e1d6"
       method="post"
       role='form'
 >
   <fieldset>
-    <!-- 
+    <!--
       the redirect_to is optional, the form will redirect to the referrer on submission
      -->
-    <input type='hidden' 
-           name='redirect_to' 
+    <input type='hidden'
+           name='redirect_to'
            value='http://edkeith.github.io/edkres.html' />
     <!-- all your input fields here.... -->
     <div class="form-group">
        <label for='name'
               class="control-label" >name</label>
-       <input type='text' 
-             id='name' 
+       <input type='text'
+             id='name'
              name='name'
-             required 
-             placeholder='Your Name' 
+             required
+             placeholder='Your Name'
              class="form-control" />
        <label for='email'
               class="control-label" >email</label>
        <input type='email'
-              id='email' 
+              id='email'
               name='email'
               placeholder='your email'
               class="form-control"  />
@@ -61,10 +61,10 @@
     <div class="form-group">
         <label for='message'
                class="control-label" >message</label>
-        <textarea class="form-control" 
-                  id='message' 
+        <textarea class="form-control"
+                  id='message'
                   name='message'
-                  placeholder='Your message here' 
+                  placeholder='Your message here'
                   required >
         </textarea>
     </div>
@@ -73,10 +73,9 @@
 </form>
 
 
-        <!-- add github, linkedin and homepage, 
-	    all with appropriate font awesome 
+        <!-- add github, linkedin and homepage,
+	    all with appropriate font awesome
             the home page gets tagged with 'u-url' -->
         <!-- I may add vimeo, with font awesome icon -->
         <!-- 'p-key'  cryptographic public key e.g. SSH or GPG  -->
 </section>
-

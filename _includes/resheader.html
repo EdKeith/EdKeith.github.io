@@ -3,11 +3,11 @@
     <h2 class='sr-only'>navigation bar</h2>
 
 	<div class="navbar-header">
-	    <button type="button" 
-		    class="navbar-toggle collapsed" 
-		    data-toggle="collapse" 
-		    data-target="#navbar" 
-		    aria-expanded="false" 
+	    <button type="button"
+		    class="navbar-toggle collapsed"
+		    data-toggle="collapse"
+		    data-target="#navbar"
+		    aria-expanded="false"
 		    aria-controls="navbar">
 		<span class="sr-only">Toggle navigation</span>
 		<span class="icon-bar"></span>
@@ -40,15 +40,15 @@
 			<li><a data-toggle="tab" href="#languages">Languages</a></li>
 			<li><a data-toggle="tab" href="#platforms">Platforms</a></li>
 			< ! - - li><a data-toggle="tab" href="#technologies">
-			    Technologies &amp; Concepts</a></li - - > 
+			    Technologies &amp; Concepts</a></li - - >
 		    </ul>
 		</li -->
 	    </ul>
 	    <ul class="nav navbar-nav navbar-right">
-		<li><a  data-toggle="modal" 
+		<li><a  data-toggle="modal"
 			data-target="#contactModal">
 			<span class="fa fa-envelope-o"
-                              aria-hidden="true"></span> 
+                              aria-hidden="true"></span>
 			    Contact Ed
 		    </a>
 		</li>
@@ -69,15 +69,15 @@ function submitForm(){
 
     // post form data
     var address = "https://getsimpleform.com/messages" +
-		"?form_api_token=cb421c7cc83cf76f769e61d0dd30d0e6";
+		"?form_api_token={{ site.data.contact.formtokin }}";
     var reportSuccess = function(){
         console.log("submit succeded");
         // put dismissible alert into modal footer
-        var alertStr = 
+        var alertStr =
 		"<div "+
 		    "class='alert alert-success fade in alert-dismissible' "+
 		    "role='alert'> " +
-		    "<button type='button' class='close' " + 
+		    "<button type='button' class='close' " +
 			    "data-dismiss='alert' aria-label='Close'> " +
 			"<span aria-hidden='true'>&times;</span> " +
 		    "</button> " +
@@ -91,10 +91,10 @@ function submitForm(){
     var onFail = function(){
         console.log("submit failed");
         // put dismissible alert into modal footer
-        var alertStr = '<div ' + 
+        var alertStr = '<div ' +
 			    'class="alert alert-danger fade in alert-dismissible" ' +
 			    'role="alert"> ' +
-			    '<button type="button" class="close" ' + 
+			    '<button type="button" class="close" ' +
 			            'data-dismiss="alert" aria-label="Close"> ' +
 			        '<span aria-hidden="true">&times;</span> ' +
 		            '</button> ' +
@@ -119,7 +119,7 @@ function submitForm(){
     $.post(address, $('#messageForm').serialize()).error( onFail ).done(reportSuccess).always(restetSubmitBtn);
 
    console.log('returned form post');
-    
+
    return false;
 };
 </script>
@@ -130,8 +130,8 @@ function submitForm(){
 	<!-- Modal content-->
 	<div class="modal-content">
 	    <div class="modal-header">
-		<button type="button" 
-			class="close" 
+		<button type="button"
+			class="close"
 			data-dismiss="modal">
 		    &times;
 		</button>
@@ -139,7 +139,7 @@ function submitForm(){
 	    </div>
 	    <div class="modal-body">
 
-		<form data-out-action="https://getsimpleform.com/messages?form_api_token=cb421c7cc83cf76f769e61d0dd30d0e6" 
+		<form data-out-action="https://getsimpleform.com/messages?form_api_token={{ site.data.contact.formtokin }}"
 		      data-out-method="post"
 		      role='form'
 		      class="form-inline-out"
@@ -147,28 +147,28 @@ function submitForm(){
                       onsubmit='return submitForm();'
 		  >
 		    <fieldset>
-			<!-- 
+			<!--
 			the redirect_to is optional, the form will redirect to the referrer on submission
 			-->
-			<input type='hidden' 
-				name='redirect_to' 
-				data-test-value='http://cors.io/?u=http://edkeith.github.io/thankyou.html' 
-				value='https://edkeith.github.io/thankyou.html' 
+			<input type='hidden'
+				name='redirect_to'
+				data-test-value='http://cors.io/?u=http://edkeith.github.io/thankyou.html'
+				value='https://edkeith.github.io/thankyou.html'
                         />
 			<!-- all your input fields here.... -->
 			<div class="form-group">
 			   <label for='name'
 			      class="control-label" >name</label>
-			   <input type='text' 
-				 id='name' 
+			   <input type='text'
+				 id='name'
 				 name='name'
-				 required 
-				 placeholder='Your Name' 
+				 required
+				 placeholder='Your Name'
 				 class="form-control" />
 			   <label for='email'
 				  class="control-label" >email</label>
 			   <input type='email'
-				  id='email' 
+				  id='email'
 				  name='email'
 				  placeholder='your email'
 				  class="form-control"  />
@@ -176,15 +176,15 @@ function submitForm(){
 			<div class="form-group">
 			    <label for='message'
 				   class="control-label" >message</label>
-			    <textarea class="form-control" 
-				      id='message' 
+			    <textarea class="form-control"
+				      id='message'
 				      name='message'
 				      rows="5"
-				      placeholder='Your message here' 
+				      placeholder='Your message here'
 				      required ></textarea>
 			</div>
-			<button type="submit" 
-				 id='contactModalSubmit'  
+			<button type="submit"
+				 id='contactModalSubmit'
 				 class="btn btn-info btn-sm" >
 			    Send Message
 			</button>
@@ -193,7 +193,7 @@ function submitForm(){
 		</form>
 
     <address class="vcard h-card p-contact">
-    <!-- 
+    <!--
     Note: this is the proper use of the address tag as
     Ed Keith is responsible for maintaining this web page.
     -->
@@ -201,7 +201,7 @@ function submitForm(){
 
 	<span class="fn p-name">
 	    <!-- a class="url" href="#" -->
-	    <span class="given-name p-given-name">Ed</span> 
+	    <span class="given-name p-given-name">Ed</span>
             <span class="family-name p-family-name">Keith</span>
 	    <!-- /a -->
 	</span>
@@ -212,8 +212,8 @@ function submitForm(){
 	<span class="postal-code p-postal-code">02475-0010</span><br>
 	<span class="country-name p-country-namr">U.S.A.</span>
 	</div>
-	<a class="email u-email" href="mailto:edkeith@inbox.com">
-	    <span class="type">pref</span><span>erred email: edkeith@inbox.com</span>
+	<a class="email u-email" href="mailto:{{ site.data.contact.resemail }}">
+	    <span class="type">pref</span><span>erred email: {{ site.data.contact.resemail }}</span>
 	</a>
 	<br>
 	<span class="tel p-tel">1(781)641-2519</span>
