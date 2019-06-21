@@ -13,7 +13,7 @@
   tag: med
 
 - course: Health Informatics on FHIR
-  url: https://www.coursera.org/learn/fhir
+#  url: https://www.coursera.org/learn/fhir
   year: 2015
   instructors:
     - Mark L. Braunstein, MD
@@ -1123,7 +1123,7 @@
 
 - course: Robotic Vision
   institute: QUT
-  url: https://www.qut.edu.au/study/short-courses-and-professional-development/short-courses/robotic-vision
+#  url: https://www.qut.edu.au/study/short-courses-and-professional-development/short-courses/robotic-vision
   tag: ai
 
 - course: Cognitive Neuroscience Robotics – Part A
@@ -1200,7 +1200,7 @@
   tag: msc
 
 - course: Introduction to Music Production
-  url: https://www.coursera.org/learn/music-production/
+#  url: https://www.coursera.org/learn/music-production/
   institute: Coursera / Berklee College of Music
   instructors:
    - Professor Loudon Stearns
